@@ -228,11 +228,16 @@ log9_path = "/tmp/log9"
 # 包括需要递归的函数
 visit_stack = []
 global_call_type = ''
-
+# judge if the function has been visited, if so return or exxplore x....x
+# attention, the list contains the last method.
+visited_function_list = []
 
 
 # 停止列表
 stop_list = ["gen_array_ops", "gen_audio_ops", "gen_batch_ops", "gen_bitwise_ops", "gen_boosted_trees_ops", "gen_candidate_sampling_ops", "gen_collective_ops", "gen_composite_tensor_ops", "gen_control_flow_ops", "gen_count_ops","gen_ctc_ops",  "gen_cudnn_rnn_ops", "gen_data_flow_ops", "gen_dataset_ops", "gen_debug_ops", "gen_decode_proto_ops", "gen_encode_proto_ops", "gen_experimental_dataset_ops", "gen_functional_ops", "gen_image_ops", "gen_io_ops", "gen_linalg_ops", "gen_list_ops", "gen_logging_ops", "gen_lookup_ops", "gen_manip_ops", "gen_math_ops", "gen_nccl_ops", "gen_nn_ops", "gen_parsing_ops", "gen_ragged_array_ops", "gen_ragged_conversion_ops", "gen_ragged_math_ops", "gen_random_index_shuffle_ops", "gen_random_ops", "gen_resource_variable_ops", "gen_rnn_ops", "gen_script_ops", "gen_sdca_ops", "gen_sendrecv_ops", "gen_set_ops", "gen_sparse_ops", "gen_special_math_ops", "gen_spectral_ops", "gen_state_ops", "gen_stateful_random_ops", "gen_stateless_random_ops", "gen_stateless_random_ops_v2", "gen_string_ops", "gen_summary_ops", "gen_tpu_ops", "gen_tpu_partition_ops", "gen_training_ops", "gen_sparse_csr_matrix_ops", "gen_user_ops"]
+
+
+
 
 class Analyzer_former(ast.NodeVisitor):
     def visit_Call(self, node):
@@ -436,8 +441,43 @@ class Analyzer(ast.NodeVisitor):
                     if "tensorflow" in new_file_path:
                         if tensorflow_path_checker == 0:
                             print("Error1"+ new_file_path)
+                        # when excuting here, obviously, the process is going to explore the function
+                        # first, check out if the function is visited
+                        tmp_last_method = method.split(".")[-1]
+                        if tmp_last_method in visited_function_list:
+                            # exit
+                            self.generic_visit(node)
+                            return
+                        # no former visit, now time to deal
+                        # add into visited_function_list:
+                        visited_function_list.append(tmp_last_method) 
                         with open(new_file_path, "r") as f:
                             tree = ast.parse(f.read())
+                            # string
+                            parse_result = ast.dump(tree)
+                        # for less bug, first try to find the key words "FunctionDef"
+                        # index used to recursively find the key word
+                        index = 0
+                        # if_located used to refer if successfully find the specific function
+                        if_located = False
+                        while True:
+                            pass
+                            search_result = parse_result[index:].find("FunctionDef")
+                            if search_result == -1:
+                                # used to represent finished
+                                break
+                            # then check the name
+                            if parse_result[search_result : search_result + len("FunctionDef(name='") - 1] != "FunctionDef(name='":
+                                # something goes wrong
+                                with open(log5_path, "a+") as f:
+                                    f.write("index:{}\n\t".format(index)+ parse_result[search_result : search_result + len("FunctionDef(name='") - 1])
+                            # get the name
+                            tmp = parse_result[search_result + len("FunctionDef(name='") + 1].find("'")
+                            name = parse_result[search_result + len("FunctionDef(name='") + 1 : tmp - 1]
+                            # compare the name 
+                            if name == tmp_last_method:
+
+
                         # print(ast.dump(tree))
                         analyzer = Analyzer()
                         analyzer.visit(tree)
@@ -555,17 +595,17 @@ with open(log9_path, "w") as f:
 with open("./simple.py", "r") as f:
     tree = ast.parse(f.read())
 
-# print(ast.dump(tree))
+print((ast.dump(tree)))
 
-former_analyzer = Analyzer_former()
-former_analyzer.visit(tree)
-print(visit_stack)
-analyzer = Analyzer()
-analyzer.visit(tree)
+# former_analyzer = Analyzer_former()
+# former_analyzer.visit(tree)
+# print(visit_stack)
+# analyzer = Analyzer()
+# analyzer.visit(tree)
 
-print(from_module_alias)
-print(from_not_module_alias)
-print(import_alias)
+# print(from_module_alias)
+# print(from_not_module_alias)
+# print(import_alias)
 
 
 
