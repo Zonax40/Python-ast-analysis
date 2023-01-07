@@ -459,9 +459,9 @@ class Analyzer(ast.NodeVisitor):
                         # index used to recursively find the key word
                         index = 0
                         # if_located used to refer if successfully find the specific function
-                        if_located = False
                         while True:
-                            pass
+                            if_located = False
+                            # here, update the index
                             search_result = parse_result[index:].find("FunctionDef")
                             if search_result == -1:
                                 # used to represent finished
@@ -476,8 +476,44 @@ class Analyzer(ast.NodeVisitor):
                             name = parse_result[search_result + len("FunctionDef(name='") + 1 : tmp - 1]
                             # compare the name 
                             if name == tmp_last_method:
-
-
+                                # if the name matches, then store this parts, and then store this part into a file stored in /tmp
+                                # first locate such pattern: FunctionDef(.......)
+                                # use the simplest way to finish traversing
+                                # when bracket_count goes to 0, then finish
+                                bracket_count = 1
+                                # temp_index is used to account the length of traversing length
+                                # The actual index is search_result + leng("FunctionDef(" + temp_index)
+                                temp_index = 0
+                                for letter in parse_result[search_result + len("FunctionDef("):]:
+                                    if letter == "(":
+                                        bracket_count = bracket_count + 1
+                                    elif letter == ")":
+                                        bracket_count = bracket_count - 1
+                                    # check out if it is time to finish
+                                    if bracket_count == 0:
+                                        # if_located works 
+                                        if_located = True
+                                        break
+                                    temp_index = temp_index + 1
+                                # now get the successful substring, it is time.
+                                
+                                if if_located:
+                                    # if_located is true, means find the defination of the function , recording the inner called functions
+                                    check_string = parse_result[search_result + len("FunctionDef("):search_result + len("FunctionDef(")+temp_index]
+                                    if check_string.rfind("")
+                                    # find the last attr='' pattern 
+                                    pass
+                                else:
+                                    # pass
+                                    # stop tracing
+                                    index = search_result + len("FunctionDef(name='") - 1
+                                    continue
+                                break
+                            else:
+                                # change index to fit the next coming cycle
+                                index = search_result + len("FunctionDef(name='") - 1
+                                pass
+                        # when excuting here, judge according to if_located
                         # print(ast.dump(tree))
                         analyzer = Analyzer()
                         analyzer.visit(tree)
@@ -592,7 +628,7 @@ with open(log8_path, "w") as f:
     pass
 with open(log9_path, "w") as f:
     pass
-with open("./simple.py", "r") as f:
+with open("./sample.py", "r") as f:
     tree = ast.parse(f.read())
 
 print((ast.dump(tree)))
