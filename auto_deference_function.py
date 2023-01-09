@@ -239,13 +239,15 @@ stop_list = ["gen_array_ops", "gen_audio_ops", "gen_batch_ops", "gen_bitwise_ops
 
 
 
+# input: a tensorflow function sample
 class Analyzer_former(ast.NodeVisitor):
     def visit_Call(self, node):
+        # use to record the type of call type
         global_call_type = type(node)
         attriute = node.func
         method = ''
         while True:
-            # 首先判断是不是Call嵌套
+            # 首先判断是不是Call嵌套, just do cycle. 
             if type(attriute) == type(node):
                 break
             try: # 读取Attribute的东西
@@ -270,8 +272,9 @@ class Analyzer_former(ast.NodeVisitor):
 class Analyzer(ast.NodeVisitor):
     def visit_FunctionDef(self, node):
         # 首先判断自己位于检索队列中
-        print("Start FunctionDef")
+        # print("Start FunctionDef")
         name = node.name
+        # just jump
         if name not in visit_stack:
             # print("Finish FunctionDef")
             self.generic_visit(node)
@@ -281,6 +284,7 @@ class Analyzer(ast.NodeVisitor):
             try:
                 # 这里就是用于判断是否为call,通过不断获取内容判断
                 attriute = element.value.func
+                # if sucessfully executing here, just means element is equal to Call
                 method = ''
                 while True:
                     # 首先判断是不是Call嵌套
@@ -305,7 +309,7 @@ class Analyzer(ast.NodeVisitor):
                 if not method.startswith("."):
                     last_method = method.split(".")[-1]
                     visit_stack.append(last_method)
-                    print(last_method+":"+method)
+                    # print(last_method+":"+method)
             except:
                 pass
         # print("Finish FunctionDef")
@@ -322,7 +326,7 @@ class Analyzer(ast.NodeVisitor):
         # Attribute(expr value, identifier attr, expr_context ctx)
         # Name(identifier id, expr_context ctx)
         # 获取函数名,需要完整
-        print("Start call")
+        # print("Start call")
         
         attriute = node.func
         method = ''
@@ -345,7 +349,8 @@ class Analyzer(ast.NodeVisitor):
                     # 这里遇到了可能是常量的情况，不关心()
                     # Error Maker
                     break
-
+        # print("Checker 1")
+        # print(method)
         if not method.startswith("."):
             final_method = method.split('.')[-1]
             if final_method in visit_stack:
@@ -370,7 +375,7 @@ class Analyzer(ast.NodeVisitor):
                 for element in stop_list:
                     if method.find(element) >= 0 :
                         print(method)
-                        # print("Finishing Call")
+                        print("Finishing Call")
                         self.generic_visit(node)
                         return
                 first_method = method.split(".", 1)[0]
@@ -444,6 +449,7 @@ class Analyzer(ast.NodeVisitor):
                         # when excuting here, obviously, the process is going to explore the function
                         # first, check out if the function is visited
                         tmp_last_method = method.split(".")[-1]
+                        # once visted, just jump
                         if tmp_last_method in visited_function_list:
                             # exit
                             self.generic_visit(node)
@@ -455,6 +461,7 @@ class Analyzer(ast.NodeVisitor):
                             tree = ast.parse(f.read())
                             # string
                             parse_result = ast.dump(tree)
+                            # print(parse_result)
                         # for less bug, first try to find the key words "FunctionDef"
                         # index used to recursively find the key word
                         index = 0
@@ -462,18 +469,24 @@ class Analyzer(ast.NodeVisitor):
                         while True:
                             if_located = False
                             # here, update the index
+                            # here, wrong handle way
                             search_result = parse_result[index:].find("FunctionDef")
                             if search_result == -1:
                                 # used to represent finished
                                 break
                             # then check the name
-                            if parse_result[search_result : search_result + len("FunctionDef(name='") - 1] != "FunctionDef(name='":
+                            if parse_result[search_result + index: search_result  + index + len("FunctionDef(name='") ] != "FunctionDef(name='":
                                 # something goes wrong
+                                print("In recursive, something goes wrong.")
+                                print(parse_result[search_result + index: search_result  + index + len("FunctionDef(name='")])
                                 with open(log5_path, "a+") as f:
                                     f.write("index:{}\n\t".format(index)+ parse_result[search_result : search_result + len("FunctionDef(name='") - 1])
                             # get the name
-                            tmp = parse_result[search_result + len("FunctionDef(name='") + 1].find("'")
-                            name = parse_result[search_result + len("FunctionDef(name='") + 1 : tmp - 1]
+                            tmp = parse_result[search_result + index+ len("FunctionDef(name='") + 1].find("'")
+                            # print(tmp)
+                            # something goes wrong here
+                            name = parse_result[search_result +index +len("FunctionDef(name='") + 1 : tmp - 1]
+                            # print(name)
                             # compare the name 
                             if name == tmp_last_method:
                                 # if the name matches, then store this parts, and then store this part into a file stored in /tmp
@@ -484,7 +497,7 @@ class Analyzer(ast.NodeVisitor):
                                 # temp_index is used to account the length of traversing length
                                 # The actual index is search_result + leng("FunctionDef(" + temp_index)
                                 temp_index = 0
-                                for letter in parse_result[search_result + len("FunctionDef("):]:
+                                for letter in parse_result[search_result + index + len("FunctionDef("):]:
                                     if letter == "(":
                                         bracket_count = bracket_count + 1
                                     elif letter == ")":
@@ -499,22 +512,23 @@ class Analyzer(ast.NodeVisitor):
                                 
                                 if if_located:
                                     # if_located is true, means find the defination of the function , recording the inner called functions
-                                    check_string = parse_result[search_result + len("FunctionDef("):search_result + len("FunctionDef(")+temp_index]
-                                    if check_string.rfind("")
+                                    check_string = parse_result[search_result + index+ len("FunctionDef("):search_result + len("FunctionDef(")+temp_index]
+                                    # if check_string.rfind("")
                                     # find the last attr='' pattern 
                                     pass
                                 else:
                                     # pass
                                     # stop tracing
-                                    index = search_result + len("FunctionDef(name='") - 1
+                                    index = search_result + index + len("FunctionDef(name='") - 1
                                     continue
                                 break
                             else:
                                 # change index to fit the next coming cycle
-                                index = search_result + len("FunctionDef(name='") - 1
+                                index = search_result + index + len("FunctionDef(name='") - 1
                                 pass
                         # when excuting here, judge according to if_located
                         # print(ast.dump(tree))
+                        print("Entering new file:" + new_file_path)
                         analyzer = Analyzer()
                         analyzer.visit(tree)
                 # print(new_file_path)
@@ -631,13 +645,13 @@ with open(log9_path, "w") as f:
 with open("./sample.py", "r") as f:
     tree = ast.parse(f.read())
 
-print((ast.dump(tree)))
+# print((ast.dump(tree)))
 
-# former_analyzer = Analyzer_former()
-# former_analyzer.visit(tree)
+former_analyzer = Analyzer_former()
+former_analyzer.visit(tree)
 # print(visit_stack)
-# analyzer = Analyzer()
-# analyzer.visit(tree)
+analyzer = Analyzer()
+analyzer.visit(tree)
 
 # print(from_module_alias)
 # print(from_not_module_alias)
