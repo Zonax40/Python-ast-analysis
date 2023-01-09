@@ -1,1 +1,10074 @@
-Module(body=[FunctionDef(name='test', args=arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[]), body=[Expr(value=Call(func=Attribute(value=Name(id='ops', ctx=Load()), attr='convert_to_tensor', ctx=Load()), args=[Name(id='mdcts', ctx=Load())], keywords=[keyword(arg='name', value=Constant(value='mdcts'))]))], decorator_list=[])], type_ignores=[])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/dtypes.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_shape.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In recursive, something goes wrong.
+FunctionDef protoc
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+
+In recursive, something goes wrong.
+FunctionDef.\n\n  
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/eager/context.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/deprecation.py
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/tf_decorator.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/deprecation.py
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_conversion_registry.py
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/lazy_loader.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/constant_op.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In recursive, something goes wrong.
+FunctionDef protoc
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+
+In recursive, something goes wrong.
+FunctionDef.\n\n  
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/eager/context.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/core/framework/attr_value_pb2.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/deprecation.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In recursive, something goes wrong.
+FunctionDef protoc
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+
+In recursive, something goes wrong.
+FunctionDef.\n\n  
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+In recursive, something goes wrong.
+FunctionDef', ctx=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/eager/context.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_shape.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/platform/tf_logging.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_util.py
+gen_array_ops.identity
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/deprecation.py
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_util.py
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/indexed_slices.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_util.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_util.py
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_shape.py
+gen_array_ops.zeros_like
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/sparse_tensor.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops.equal
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py
+gen_math_ops.arg_max
+Finishing Call
+gen_math_ops.arg_min
+Finishing Call
+gen_math_ops.complex_abs
+Finishing Call
+gen_math_ops._abs
+Finishing Call
+gen_math_ops.bucketize
+Finishing Call
+gen_math_ops.mul
+Finishing Call
+gen_math_ops.mul
+Finishing Call
+gen_math_ops.sub
+Finishing Call
+gen_math_ops.sub
+Finishing Call
+gen_math_ops.mul
+Finishing Call
+gen_math_ops.mul
+Finishing Call
+gen_nn_ops.softplus
+Finishing Call
+gen_math_ops._pow
+Finishing Call
+gen_math_ops._complex
+Finishing Call
+gen_math_ops.div_no_nan
+Finishing Call
+gen_math_ops.complex_abs
+Finishing Call
+gen_math_ops.sign
+Finishing Call
+gen_math_ops.real
+Finishing Call
+gen_math_ops.imag
+Finishing Call
+gen_math_ops.angle
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops.round
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops.minimum
+Finishing Call
+gen_sparse_ops.sparse_dense_cwise_div
+Finishing Call
+gen_math_ops.real_div
+Finishing Call
+gen_math_ops.real_div
+Finishing Call
+gen_math_ops.floor_div
+Finishing Call
+gen_math_ops.div_no_nan
+Finishing Call
+gen_math_ops.mul_no_nan
+Finishing Call
+gen_math_ops.floor_div
+Finishing Call
+gen_math_ops.add
+Finishing Call
+gen_math_ops.add_v2
+Finishing Call
+gen_sparse_ops.sparse_dense_cwise_mul
+Finishing Call
+gen_math_ops.logical_and
+Finishing Call
+gen_math_ops.logical_or
+Finishing Call
+gen_math_ops.logical_not
+Finishing Call
+gen_math_ops.logical_and
+Finishing Call
+gen_math_ops.logical_and
+Finishing Call
+gen_bitwise_ops.bitwise_and
+Finishing Call
+gen_math_ops.logical_or
+Finishing Call
+gen_bitwise_ops.bitwise_or
+Finishing Call
+gen_bitwise_ops.bitwise_xor
+Finishing Call
+gen_math_ops.logical_not
+Finishing Call
+gen_bitwise_ops.invert
+Finishing Call
+gen_math_ops.equal
+Finishing Call
+gen_math_ops.not_equal
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+gen_math_ops.equal
+Finishing Call
+gen_math_ops.not_equal
+Finishing Call
+gen_math_ops._range
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops.not_equal
+Finishing Call
+gen_math_ops.real
+Finishing Call
+gen_math_ops.mul
+Finishing Call
+gen_math_ops.conj
+Finishing Call
+gen_math_ops.square
+Finishing Call
+gen_math_ops.sqrt
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops.log
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.batch_mat_mul_v3
+Finishing Call
+gen_math_ops.batch_mat_mul_v2
+Finishing Call
+gen_math_ops.batch_mat_mul_v3
+Finishing Call
+gen_math_ops.mat_mul
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/graph_util.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops.add
+Finishing Call
+gen_math_ops.add_v2
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops.add_n
+Finishing Call
+gen_math_ops.sigmoid
+Finishing Call
+gen_math_ops.neg
+Finishing Call
+gen_nn_ops.softplus
+Finishing Call
+gen_math_ops.cumsum
+Finishing Call
+gen_math_ops.cumprod
+Finishing Call
+gen_math_ops.cumulative_logsumexp
+Finishing Call
+gen_math_ops.conj
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_data_flow_ops.dynamic_stitch
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops.unsorted_segment_sum
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops.unsorted_segment_sum
+Finishing Call
+gen_math_ops.unsorted_segment_sum
+Finishing Call
+gen_math_ops.sqrt
+Finishing Call
+gen_math_ops.sparse_segment_sum_with_num_segments
+Finishing Call
+gen_math_ops.sparse_segment_sum
+Finishing Call
+gen_math_ops.sparse_segment_mean_with_num_segments
+Finishing Call
+gen_math_ops.sparse_segment_mean
+Finishing Call
+gen_math_ops.sparse_segment_sqrt_n_with_num_segments
+Finishing Call
+gen_math_ops.sparse_segment_sqrt_n
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+gen_array_ops.reshape
+Finishing Call
+gen_array_ops.identity
+Finishing Call
+gen_array_ops.expand_dims
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_array_ops.broadcast_args
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.shape
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.size
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops._slice
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_array_ops.pack
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.concat_v2
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_array_ops.list_diff
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.rank
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_array_ops.zeros_like
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_array_ops.squeeze
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_array_ops.where
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.prod
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_math_ops.cast
+Finishing Call
+gen_math_ops.maximum
+Finishing Call
+gen_math_ops._range
+Finishing Call
+gen_array_ops.stop_gradient
+Finishing Call
+gen_math_ops.div_no_nan
+Finishing Call
+gen_math_ops.xlog1py
+Finishing Call
+gen_math_ops.erfinv
+Finishing Call
+gen_math_ops.ndtri
+Finishing Call
+gen_math_ops.ceil
+Finishing Call
+gen_math_ops.sqrt
+Finishing Call
+gen_math_ops.exp
+Finishing Call
+gen_math_ops.sobol_sample
+Finishing Call
+gen_math_ops.rsqrt
+Finishing Call
+gen_math_ops.acos
+Finishing Call
+gen_math_ops.floor
+Finishing Call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entering new file:/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py

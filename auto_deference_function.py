@@ -383,7 +383,6 @@ class Analyzer(ast.NodeVisitor):
                     # print("Finishing Call")
                     self.generic_visit(node)
                     return
-                continuing_method = method.split(".", 1)[1]
                 try:
                     _checker = method.split(".")[2]
                     # 暂时停止这一部分的内容
@@ -421,14 +420,22 @@ class Analyzer(ast.NodeVisitor):
                 # 
                 
                 new_file_path = "" 
+                # here, attention must give a alias marker or error
+                if_alias = 0
+                module_name = ''
                 # 检验位， checker
                 tensorflow_path_checker = 1
                 if first_method in import_alias:
                     new_file_path = inspect.getfile(import_alias[first_method][0])
                 elif first_method in from_not_module_alias:
                     new_file_path = inspect.getfile(from_not_module_alias[first_method][0])
+                    if_alias = from_not_module_alias[first_method][2]
+                    module_name = from_not_module_alias[first_method][1]
+                    # print(from_not_module_alias[first_method][1])
                 elif first_method in from_module_alias:
                     new_file_path = inspect.getfile(from_module_alias[first_method][0])
+                    if_alias = from_module_alias[first_method][2]
+                    module_name = from_module_alias[first_method][1]
                 else:
                     tensorflow_path_checker = 0 
                 # new_file_path = inspect.getfile(eval(method)) 
@@ -442,13 +449,18 @@ class Analyzer(ast.NodeVisitor):
                 if new_file_path:
                     with open(log3_path, "a+") as f:
                         f.write(method+"\n")
+                # print(new_file_path)
                 if new_file_path:
                     if "tensorflow" in new_file_path:
                         if tensorflow_path_checker == 0:
                             print("Error1"+ new_file_path)
                         # when excuting here, obviously, the process is going to explore the function
                         # first, check out if the function is visited
-                        tmp_last_method = method.split(".")[-1]
+                        if not if_alias:
+                            tmp_last_method = method.split(".")[-1]
+                        else:
+                            tmp_last_method = module_name.split(".")[-1]
+                            # print(tmp_last_method)
                         # once visted, just jump
                         if tmp_last_method in visited_function_list:
                             # exit
@@ -464,13 +476,14 @@ class Analyzer(ast.NodeVisitor):
                             # print(parse_result)
                         # for less bug, first try to find the key words "FunctionDef"
                         # index used to recursively find the key word
+                        print("Entering new file:" + new_file_path)
                         index = 0
                         # if_located used to refer if successfully find the specific function
                         while True:
                             if_located = False
                             # here, update the index
                             # here, wrong handle way
-                            search_result = parse_result[index:].find("FunctionDef")
+                            search_result = parse_result[index:].find("FunctionDef(name='")
                             if search_result == -1:
                                 # used to represent finished
                                 break
@@ -482,13 +495,15 @@ class Analyzer(ast.NodeVisitor):
                                 with open(log5_path, "a+") as f:
                                     f.write("index:{}\n\t".format(index)+ parse_result[search_result : search_result + len("FunctionDef(name='") - 1])
                             # get the name
-                            tmp = parse_result[search_result + index+ len("FunctionDef(name='") + 1].find("'")
+                            tmp = parse_result[search_result + index+ len("FunctionDef(name='"):].find("'")
                             # print(tmp)
-                            # something goes wrong here
-                            name = parse_result[search_result +index +len("FunctionDef(name='") + 1 : tmp - 1]
-                            # print(name)
+                            # with successful repair
+                            name = parse_result[search_result +index +len("FunctionDef(name='") : search_result +index +len("FunctionDef(name='") + tmp ]
+                            # successfully validate
                             # compare the name 
+                            # print(name+":"+tmp_last_method)
                             if name == tmp_last_method:
+                                print(name+":"+tmp_last_method)
                                 # if the name matches, then store this parts, and then store this part into a file stored in /tmp
                                 # first locate such pattern: FunctionDef(.......)
                                 # use the simplest way to finish traversing
@@ -512,9 +527,16 @@ class Analyzer(ast.NodeVisitor):
                                 
                                 if if_located:
                                     # if_located is true, means find the defination of the function , recording the inner called functions
-                                    check_string = parse_result[search_result + index+ len("FunctionDef("):search_result + len("FunctionDef(")+temp_index]
-                                    # if check_string.rfind("")
-                                    # find the last attr='' pattern 
+                                    check_string = parse_result[search_result + index+ len("FunctionDef"):search_result+index + len("FunctionDef(")+temp_index+1]
+                                    print("+++"+check_string)
+                                    # now it is time to deal with the call function
+                                    # here is the furthur trace of the function, obtain the contained function and just add it to visit_stack
+                                    # similarity, deal with the string result 
+                                    index = 0
+                                    while True:
+                                        # search_result = parse_result[index:].find("FunctionDef(name='")
+                                        break
+
                                     pass
                                 else:
                                     # pass
@@ -528,7 +550,7 @@ class Analyzer(ast.NodeVisitor):
                                 pass
                         # when excuting here, judge according to if_located
                         # print(ast.dump(tree))
-                        print("Entering new file:" + new_file_path)
+                        
                         analyzer = Analyzer()
                         analyzer.visit(tree)
                 # print(new_file_path)
@@ -597,6 +619,7 @@ class Analyzer(ast.NodeVisitor):
         # print("TIMES")
         try: # 首先尝试，整体作为模块进行引入
             long_module = module + "." + name
+            # print(long_module)
             # 如果报错，则表示这里的name对应的不是模块
             module_import = importlib.import_module(long_module)
             # 如果执行到这里表示，是模块
@@ -606,11 +629,14 @@ class Analyzer(ast.NodeVisitor):
             module_import = importlib.import_module(module)
 
         # 第二步保存
+        # expand the store information with a asname tag.
         if asname:
             if if_module:
-                from_module_alias[asname] = [module_import, long_module]
+                from_module_alias[asname] = [module_import, long_module, 1]
             else:
-                from_not_module_alias[asname] = [module_import, module]
+                # abondon the origninal thoughts
+                # from_not_module_alias[asname] = [module_import, module, 1]
+                 from_not_module_alias[asname] = [module_import, long_module, 1]
             # considering somethinig error
             # 我不清楚是否应该启用这个
             # Error Maker
@@ -618,9 +644,9 @@ class Analyzer(ast.NodeVisitor):
         else:
             # print(name)
             if if_module:
-                from_module_alias[name] = [module_import, long_module]
+                from_module_alias[name] = [module_import, long_module, 0]
             else:
-                from_not_module_alias[name] = [module_import, module]
+                from_not_module_alias[name] = [module_import, module, 0]
         # still now contains everty module
         self.generic_visit(node)
 # with open("/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_string_ops.py", "r") as f:
@@ -645,7 +671,7 @@ with open(log9_path, "w") as f:
 with open("./sample.py", "r") as f:
     tree = ast.parse(f.read())
 
-# print((ast.dump(tree)))
+print((ast.dump(tree)))
 
 former_analyzer = Analyzer_former()
 former_analyzer.visit(tree)
