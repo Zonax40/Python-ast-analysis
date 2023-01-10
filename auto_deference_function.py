@@ -348,15 +348,19 @@ class Analyzer(ast.NodeVisitor):
                 except:
                     # 这里遇到了可能是常量的情况，不关心()
                     # Error Maker
+                    # print(method + ":")
                     break
         # print("Checker 1")
         # print(method)
         if not method.startswith("."):
             final_method = method.split('.')[-1]
+            # print(method+":"+final_method)
             if final_method in visit_stack:
                 pass
             else:
                 # print("Finishing Call")
+                if(final_method == "reshape"):
+                    print(visit_stack)
                 self.generic_visit(node)
                 return
         # 在此获得了函数名
@@ -364,11 +368,11 @@ class Analyzer(ast.NodeVisitor):
         # 跳过一些空method，实际上就是call递归的情况
         # 有一些内联的，这些直接跳过
         # 使用另类做法处理: a.b.c
-        try:
+        # print(method)
+        try:    
             if method:
                 with open(log4_path, "a+") as f:
                     f.write(method+"\n")
-                # print(method)
                 # 获取method的第一个元素
                 # 总是正确工作
                 # 首先检测是否到达底部
@@ -379,8 +383,10 @@ class Analyzer(ast.NodeVisitor):
                         self.generic_visit(node)
                         return
                 first_method = method.split(".", 1)[0]
+                # print(method)
                 if not first_method:
                     # print("Finishing Call")
+                    # print("skip:" + method)
                     self.generic_visit(node)
                     return
                 try:
@@ -503,7 +509,7 @@ class Analyzer(ast.NodeVisitor):
                             # compare the name 
                             # print(name+":"+tmp_last_method)
                             if name == tmp_last_method:
-                                print(name+":"+tmp_last_method)
+                                # print(name+":"+tmp_last_method)
                                 # if the name matches, then store this parts, and then store this part into a file stored in /tmp
                                 # first locate such pattern: FunctionDef(.......)
                                 # use the simplest way to finish traversing
@@ -528,14 +534,78 @@ class Analyzer(ast.NodeVisitor):
                                 if if_located:
                                     # if_located is true, means find the defination of the function , recording the inner called functions
                                     check_string = parse_result[search_result + index+ len("FunctionDef"):search_result+index + len("FunctionDef(")+temp_index+1]
-                                    print("+++"+check_string)
+                                    # print("+++"+check_string)
                                     # now it is time to deal with the call function
                                     # here is the furthur trace of the function, obtain the contained function and just add it to visit_stack
                                     # similarity, deal with the string result 
-                                    index = 0
+                                    new_index = 0
                                     while True:
-                                        # search_result = parse_result[index:].find("FunctionDef(name='")
-                                        break
+                                        temp_search_result = check_string[new_index:].find("Call(func=")
+                                        if temp_search_result == -1:
+                                            break
+                                        # to make the program more stable use some fool methods
+                                        bracket_count = 1
+                                        # temp_index is used to account the length of traversing length
+                                        temp_index = 0
+                                        for letter in check_string[temp_search_result + new_index + len("Call(func="):]:
+                                            if letter == "(":
+                                                bracket_count = bracket_count + 1
+                                            elif letter == ")":
+                                                bracket_count = bracket_count - 1
+                                            # check out if it is time to finish
+                                            if bracket_count == 0:
+                                                # if_located works 
+                                                break
+                                            temp_index = temp_index + 1
+                                        # call_string validate, it is complete
+                                        call_string = check_string[temp_search_result+new_index:temp_search_result+new_index+temp_index+len("Call(func=")+1]
+                                        # first, check out the first few characters if they are Call(func=Name, if so just get id
+                                        # work properly
+                                        if check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Name")] == "Call(func=Name":
+                                            # just compare the first few chars if it is Call(func=Name(id=
+                                            if check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Name(id='")] == "Call(func=Name(id='":
+                                                symbol_index = check_string[temp_search_result+new_index+len("Call(func=Name(id='"):].find("'")
+                                                # validate
+                                                id_name = check_string[temp_search_result+new_index+len("Call(func=Name(id='"):temp_search_result+new_index+len("Call(func=Name(id='")+symbol_index]
+                                                visit_stack.append(id_name)
+                                        elif check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Attribute")] == "Call(func=Attribute":
+                                            bracket_count = 1
+                                            temp_index = 0
+                                            for letter in check_string[temp_search_result + new_index + len("Call(func=Attribute("):]:
+                                                if letter == "(":
+                                                    bracket_count = bracket_count + 1
+                                                elif letter == ")":
+                                                    bracket_count = bracket_count - 1
+                                                # check out if it is time to finish
+                                                if bracket_count == 0:
+                                                    # if_located works 
+                                                    break
+                                                temp_index = temp_index + 1
+                                            func_string = check_string[temp_search_result + new_index+ len("Call("):temp_search_result + new_index + len("Call(func=Attribute(")+temp_index+1]
+                                            # call_string is the correct array, just get the last attr
+                                            # print(call_string)
+                                            symbol_index =  func_string.rfind("attr='")
+                                            if symbol_index == -1:
+                                                print("Attribute: error:"+func_string)
+                                                new_index = new_index + temp_search_result + len("Call(func=")
+                                                continue
+                                                
+                                            temp_index = 0
+                                            for letter in func_string[symbol_index + len("attr='"):]:
+                                                if letter != "'":
+                                                    temp_index = temp_index + 1
+                                                else:
+                                                    break
+                                            attriute_name = func_string[symbol_index + len("attr='"): symbol_index + len("attr='") + temp_index]
+                                            # print(attriute_name)
+                                            # print(attriute_name)
+                                            visit_stack.append(attriute_name)
+                                        else:
+                                            print("Call(func= appears error")
+
+
+                                        # print(call_string)
+                                        new_index = new_index + temp_search_result + len("Call(func=")
 
                                     pass
                                 else:
@@ -671,7 +741,7 @@ with open(log9_path, "w") as f:
 with open("./sample.py", "r") as f:
     tree = ast.parse(f.read())
 
-print((ast.dump(tree)))
+# print((ast.dump(tree)))
 
 former_analyzer = Analyzer_former()
 former_analyzer.visit(tree)
@@ -725,7 +795,7 @@ analyzer.visit(tree)
 #     with open(input_file, "r") as f:
 #         for line in f.readlines():
 #             try:
-#                 if(line[0].isalpha()): # 表明是正常
+#                 if(line[0].isalpha()expm(input)): # 表明是正常
 #                     index = line.find("(")
 #                     if index > 0:
 #                         function_name = line[:index-1]
