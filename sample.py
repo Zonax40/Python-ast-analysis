@@ -1,3 +1,3 @@
-from tensorflow.python.ops.linalg.linalg_impl import matrix_exponential as expm
+import tensorflow as tf
 def test():
-  expm(input)
+  tf.image.extract_patches( images, sizes, strides, rates, padding, name=None ) 

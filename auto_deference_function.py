@@ -215,6 +215,8 @@ functions = {}
 # module dict:
 modules = {}
 
+# 
+
 log1_path = "/tmp/log1"
 log2_path = "/tmp/log2"
 log3_path = "/tmp/log3"
@@ -231,7 +233,7 @@ global_call_type = ''
 # judge if the function has been visited, if so return or exxplore x....x
 # attention, the list contains the last method.
 visited_function_list = []
-
+raw_api_output = []
 
 # 停止列表
 stop_list = ["gen_array_ops", "gen_audio_ops", "gen_batch_ops", "gen_bitwise_ops", "gen_boosted_trees_ops", "gen_candidate_sampling_ops", "gen_collective_ops", "gen_composite_tensor_ops", "gen_control_flow_ops", "gen_count_ops","gen_ctc_ops",  "gen_cudnn_rnn_ops", "gen_data_flow_ops", "gen_dataset_ops", "gen_debug_ops", "gen_decode_proto_ops", "gen_encode_proto_ops", "gen_experimental_dataset_ops", "gen_functional_ops", "gen_image_ops", "gen_io_ops", "gen_linalg_ops", "gen_list_ops", "gen_logging_ops", "gen_lookup_ops", "gen_manip_ops", "gen_math_ops", "gen_nccl_ops", "gen_nn_ops", "gen_parsing_ops", "gen_ragged_array_ops", "gen_ragged_conversion_ops", "gen_ragged_math_ops", "gen_random_index_shuffle_ops", "gen_random_ops", "gen_resource_variable_ops", "gen_rnn_ops", "gen_script_ops", "gen_sdca_ops", "gen_sendrecv_ops", "gen_set_ops", "gen_sparse_ops", "gen_special_math_ops", "gen_spectral_ops", "gen_state_ops", "gen_stateful_random_ops", "gen_stateless_random_ops", "gen_stateless_random_ops_v2", "gen_string_ops", "gen_summary_ops", "gen_tpu_ops", "gen_tpu_partition_ops", "gen_training_ops", "gen_sparse_csr_matrix_ops", "gen_user_ops"]
@@ -359,8 +361,8 @@ class Analyzer(ast.NodeVisitor):
                 pass
             else:
                 # print("Finishing Call")
-                if(final_method == "reshape"):
-                    print(visit_stack)
+                # if(final_method == "reshape"):
+                #     print(visit_stack)
                 self.generic_visit(node)
                 return
         # 在此获得了函数名
@@ -379,7 +381,9 @@ class Analyzer(ast.NodeVisitor):
                 for element in stop_list:
                     if method.find(element) >= 0 :
                         print(method)
-                        print("Finishing Call")
+                        # print("Finishing Call")
+                        if method not in raw_api_output:
+                            raw_api_output.append(method)
                         self.generic_visit(node)
                         return
                 first_method = method.split(".", 1)[0]
@@ -389,19 +393,21 @@ class Analyzer(ast.NodeVisitor):
                     # print("skip:" + method)
                     self.generic_visit(node)
                     return
+                complete_functions  = ''
                 try:
                     _checker = method.split(".")[2]
                     # 暂时停止这一部分的内容
                     # 
                     _last_method = method.split(".")[-1]
-
-                    complete_functions  = ''
+                    # print("Chekcer")
                     record = ''
                     # 这里开始处理a.b.c诸如情况
+                    # print(first_method)
                     if first_method in import_alias:
                         # 如此拼凑
                         complete_functions = import_alias[first_method][1] + '.' +method.split(".", 1)[1]
                         record = import_alias[first_method][1]
+                        # print("chekcer:"+complete_functions)
                     elif first_method in from_not_module_alias:
                         # complete_functions = import_alias[first_method][1] + '.' +method.split(".", 1)[1]
                         # here, few possibility of excuting here
@@ -414,9 +420,6 @@ class Analyzer(ast.NodeVisitor):
                     # 这里对于的是对于类的，可以直接忽视
                     # sys.exit(-1)
 
-                    if complete_functions:
-                        with open(log1_path, "a+") as f:
-                            f.write(complete_functions+"\n" +method + '\n' + record)
                 except:
                     pass
                 # 判断是否在imort_alits和from_not_module_alias中
@@ -433,6 +436,15 @@ class Analyzer(ast.NodeVisitor):
                 tensorflow_path_checker = 1
                 if first_method in import_alias:
                     new_file_path = inspect.getfile(import_alias[first_method][0])
+                    # need to change the new_file_path
+                    # print(new_file_path.endswith("__init__.py"))
+                    # print(complete_functions)
+                    if new_file_path.endswith("__init__.py"):
+                        if complete_functions:
+                            new_file_path = inspect.getfile(eval(complete_functions))
+                            print("update new_file_path:"+complete_functions+":"+new_file_path)
+                        else:
+                            print("new file path errors!")
                 elif first_method in from_not_module_alias:
                     new_file_path = inspect.getfile(from_not_module_alias[first_method][0])
                     if_alias = from_not_module_alias[first_method][2]
@@ -482,7 +494,7 @@ class Analyzer(ast.NodeVisitor):
                             # print(parse_result)
                         # for less bug, first try to find the key words "FunctionDef"
                         # index used to recursively find the key word
-                        print("Entering new file:" + new_file_path)
+                        # print("Entering new file:" + new_file_path)
                         index = 0
                         # if_located used to refer if successfully find the specific function
                         while True:
@@ -601,9 +613,9 @@ class Analyzer(ast.NodeVisitor):
                                             # print(attriute_name)
                                             visit_stack.append(attriute_name)
                                         else:
-                                            print("Call(func= appears error")
-
-
+                                            # print("Call(func= appears error:"+check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Attribute")])
+                                            # here just Call and call 
+                                            pass
                                         # print(call_string)
                                         new_index = new_index + temp_search_result + len("Call(func=")
 
@@ -620,7 +632,6 @@ class Analyzer(ast.NodeVisitor):
                                 pass
                         # when excuting here, judge according to if_located
                         # print(ast.dump(tree))
-                        
                         analyzer = Analyzer()
                         analyzer.visit(tree)
                 # print(new_file_path)
@@ -638,6 +649,7 @@ class Analyzer(ast.NodeVisitor):
     def visit_Import(self, node):
         # 现在编程一定需要考虑something wrong的情况 
         # import ... as
+        # print("import error occurs!\n")
         try:
             name = node.names[0].name
             # print(name)
@@ -650,6 +662,8 @@ class Analyzer(ast.NodeVisitor):
                 pass
                 # print("import error2!")
             # 
+            # print(name)
+            # print(asname)
             if not asname:
                 # 检查是否存在import a.b的情况
                 if name.find(".") >= 0:
@@ -661,6 +675,7 @@ class Analyzer(ast.NodeVisitor):
                 import_alias[name] = [module_import, name]
             else: # 存在别名
                 # 直接引入
+                # print(asname)
                 module_import = importlib.import_module(name)
                 import_alias[asname] = [module_import, name]
         except:
@@ -669,6 +684,7 @@ class Analyzer(ast.NodeVisitor):
         self.generic_visit(node)
     def visit_ImportFrom(self, node):
         # from .... import ... as ...
+        print("Entering import from")
         module = node.module
         # 类似于import方法
         if_asname = 0
@@ -749,6 +765,8 @@ former_analyzer.visit(tree)
 analyzer = Analyzer()
 analyzer.visit(tree)
 
+
+# print(raw_api_output)
 # print(from_module_alias)
 # print(from_not_module_alias)
 # print(import_alias)
