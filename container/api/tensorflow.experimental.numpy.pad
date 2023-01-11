@@ -1,0 +1,4 @@
+gen_array_ops.zeros_like
+gen_array_ops.pad
+gen_array_ops.pad_v2
+gen_array_ops.mirror_pad

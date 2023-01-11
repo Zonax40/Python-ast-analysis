@@ -1,0 +1,3 @@
+gen_array_ops.shape
+gen_math_ops.add
+gen_math_ops.cast

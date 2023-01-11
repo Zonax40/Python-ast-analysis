@@ -1,0 +1,7 @@
+gen_math_ops.equal
+gen_array_ops.reshape
+gen_array_ops.rank
+gen_logging_ops._assert
+gen_math_ops.add
+gen_math_ops.add_v2
+gen_array_ops.unpack

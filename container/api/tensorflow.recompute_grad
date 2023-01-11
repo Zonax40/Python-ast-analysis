@@ -1,0 +1,6 @@
+gen_array_ops.reshape
+gen_math_ops.cast
+gen_array_ops.where
+gen_math_ops.select_v2
+gen_math_ops.select
+gen_math_ops.add

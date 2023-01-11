@@ -1,0 +1,3 @@
+gen_math_ops.logical_not
+gen_bitwise_ops.invert
+gen_array_ops.rank

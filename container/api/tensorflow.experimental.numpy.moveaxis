@@ -1,0 +1,8 @@
+gen_array_ops.expand_dims
+gen_array_ops.rank
+gen_array_ops.pack
+gen_array_ops.unpack
+gen_array_ops.concat_v2
+gen_array_ops.tensor_scatter_update
+gen_math_ops.cast
+gen_math_ops._range

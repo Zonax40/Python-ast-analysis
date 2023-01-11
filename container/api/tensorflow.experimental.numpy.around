@@ -1,0 +1,4 @@
+gen_math_ops.mul
+gen_math_ops.round
+gen_math_ops.cast
+gen_math_ops._pow

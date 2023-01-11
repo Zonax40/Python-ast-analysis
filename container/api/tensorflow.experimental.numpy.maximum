@@ -1,0 +1,4 @@
+gen_nn_ops.relu
+gen_math_ops.maximum
+gen_math_ops.logical_or
+gen_array_ops.rank

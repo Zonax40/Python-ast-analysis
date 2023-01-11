@@ -1,0 +1,3 @@
+gen_array_ops.shape
+gen_array_ops.where
+gen_math_ops.select_v2

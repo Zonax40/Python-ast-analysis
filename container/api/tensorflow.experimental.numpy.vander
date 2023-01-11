@@ -1,0 +1,10 @@
+gen_array_ops.expand_dims
+gen_math_ops.cast
+gen_array_ops.shape
+gen_array_ops.rank
+gen_math_ops._range
+gen_math_ops.equal
+gen_logging_ops._assert
+gen_math_ops.add
+gen_math_ops.add_v2
+gen_math_ops._pow

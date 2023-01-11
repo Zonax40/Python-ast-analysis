@@ -1,0 +1,7 @@
+gen_math_ops.cast
+gen_array_ops.shape
+gen_array_ops.size
+gen_array_ops.rank
+gen_math_ops.real
+gen_math_ops.conj
+gen_math_ops.square

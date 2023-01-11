@@ -1,0 +1,16 @@
+gen_math_ops.sign
+gen_math_ops.real
+gen_math_ops.cast
+gen_array_ops.reshape
+gen_array_ops.fill
+gen_array_ops.rank
+gen_math_ops._range
+gen_math_ops.complex_abs
+gen_math_ops.div_no_nan
+gen_array_ops.shape
+gen_array_ops.concat_v2
+gen_math_ops._pow
+gen_array_ops.expand_dims
+gen_array_ops.pack
+gen_array_ops.unpack
+gen_array_ops.tensor_scatter_update

@@ -1,0 +1,15 @@
+gen_array_ops.reshape
+gen_array_ops.list_diff
+gen_array_ops.shape
+gen_math_ops.prod
+gen_array_ops.rank
+gen_array_ops.pack
+gen_array_ops.concat_v2
+gen_array_ops.where
+gen_math_ops.cast
+gen_math_ops._range
+gen_math_ops.select
+gen_math_ops.conj
+gen_math_ops.batch_mat_mul_v3
+gen_math_ops.batch_mat_mul_v2
+gen_math_ops.mat_mul

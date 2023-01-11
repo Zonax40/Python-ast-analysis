@@ -1,0 +1,10 @@
+gen_array_ops.shape
+gen_array_ops.zeros_like
+gen_array_ops.where
+gen_math_ops.select_v2
+gen_array_ops.gather_nd
+gen_math_ops.select
+gen_math_ops.add
+gen_math_ops.not_equal
+gen_math_ops.cast
+gen_math_ops.add_v2

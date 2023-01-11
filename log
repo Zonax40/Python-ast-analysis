@@ -1,0 +1,2244 @@
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.acosh
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_acosh acosh_eager_fallback dispatch dict _dispatcher_for_acosh _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.apply_affine_transform
+ImportError unique ValueError set set ValueError ValueError ValueError deg2rad array cos sin sin cos array dot deg2rad array sin cos dot array dot transform_matrix_offset_center rollaxis affine_transform stack rollaxis keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/export/export.py
+tensorflow.estimator.experimental.build_raw_supervised_input_receiver_fn
+keys keys set set ValueError format isinstance _placeholder_from_tensor _placeholders_from_receiver_tensors_dict isinstance _placeholder_from_tensor _placeholders_from_receiver_tensors_dict dict update SupervisedInputReceiver estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.real
+asarray real np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB0
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/text.py
+tensorflow.keras.preprocessing.text.text_to_word_sequence
+lower maketrans translate split keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/dtypes.py
+tensorflow.dtypes.as_dtype
+isinstance isinstance hasattr dtype isinstance TypeError tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.broadcast_to
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_broadcast_to broadcast_to_eager_fallback dispatch dict _dispatcher_for_broadcast_to _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/vis_utils.py
+tensorflow.keras.utils.plot_model
+ValueError check_graphviz print_msg ImportError model_to_dot path_to_string splitext write Image keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.arcsinh
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.fliplr
+flip np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/constraints.py
+tensorflow.keras.constraints.deserialize
+deserialize_keras_object globals keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/platform/sysconfig.py
+tensorflow.sysconfig.get_compile_flags
+append get_include append append get_eigen_max_align_bytes tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.empty_like
+zeros_like np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet_v2.py
+tensorflow.keras.applications.resnet_v2.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/stateful_random_ops.py
+tensorflow.random.get_global_generator
+is_op_determinism_enabled RuntimeError init_scope from_non_deterministic_state tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.atleast_3d
+size cond equal constant cond equal pad pad _atleast_nd np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/__init__.py
+tensorflow.experimental.numpy.round
+around np_doc AliasOf
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.less
+_comparison np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.greater
+_comparison np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/prefetching_ops.py
+tensorflow.data.experimental.prefetch_to_device
+prefetch apply copy_to_device tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/initializers/__init__.py
+tensorflow.keras.initializers.deserialize
+populate_deserializable_objects deserialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.clip
+ValueError minimum maximum _promote_dtype clip_by_value tf_broadcast np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.efficientnet.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.floor_divide
+cast cast floordiv _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.atan2
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_atan2 atan2_eager_fallback dispatch dict _dispatcher_for_atan2 _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/io_ops.py
+tensorflow.io.serialize_tensor
+serialize_tensor tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/layer_utils.py
+tensorflow.keras.utils.get_source_inputs
+hasattr flatten iterate_inbound get_source_inputs all append keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.embedding_column
+ValueError format ValueError callable ValueError format truncated_normal_initializer sqrt EmbeddingColumn tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isinf
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/inception_resnet_v2.py
+tensorflow.keras.applications.inception_resnet_v2.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.categorical_column_with_hash_bucket
+ValueError format ValueError format assert_key_is_string assert_string_or_int format HashedCategoricalColumn tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/densenet.py
+tensorflow.keras.applications.densenet.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.argmax
+_argminmax np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/reuters.py
+tensorflow.keras.datasets.reuters.get_word_index
+get_file open load keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/platform/sysconfig.py
+tensorflow.sysconfig.get_include
+join dirname tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py
+tensorflow.io.gfile.copy
+copy_v2 tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_shape.py
+tensorflow.compat.dimension_value
+isinstance tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.random_rotation
+uniform apply_affine_transform keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.logical_or
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_logical_or logical_or_eager_fallback dispatch dict _dispatcher_for_logical_or _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.extract_volume_patches
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_extract_volume_patches extract_volume_patches_eager_fallback dispatch dict _dispatcher_for_extract_volume_patches isinstance TypeError make_int isinstance TypeError make_int make_str _apply_op_helper dispatch dict must_record_gradient get_attr get_attr _get_attr_type get_attr record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.absolute
+abs np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/early_stopping.py
+tensorflow.estimator.experimental.stop_if_no_increase_hook
+_stop_if_no_metric_improvement_hook estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_utils.py
+tensorflow.experimental.numpy.promote_types
+_to_numpy_type _to_numpy_type canonicalize_dtype promote_types np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.unravel_index
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_unravel_index unravel_index_eager_fallback dispatch dict _dispatcher_for_unravel_index _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB5
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/sequence.py
+tensorflow.keras.preprocessing.sequence.make_sampling_table
+arange log minimum sqrt keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.true_divide
+cast cast default_float_type cast cast is_allow_float64 _avoid_float64 truediv _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/timeseries_dataset.py
+tensorflow.keras.preprocessing.timeseries_dataset_from_array
+ValueError len ValueError len ValueError len ValueError len ValueError ValueError len ValueError len ValueError len ValueError len len min len arange randint RandomState shuffle cast cast repeat from_tensors map zip range len range sequences_from_indices map zip range len sequences_from_indices zip prefetch shuffle batch shuffle keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gradients_impl.py
+tensorflow.gradients
+_mutation_lock get_default_graph _GradientsHelper tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet.py
+tensorflow.keras.applications.mobilenet.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_spectral_ops.py
+tensorflow.signal.fft2d
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_fft2d fft2d_eager_fallback dispatch dict _dispatcher_for_fft2d _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.io.decode_gif
+context TFE_Py_FastPathExecute raise_from_not_ok_status decode_gif_eager_fallback _apply_op_helper must_record_gradient record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet_v2.py
+tensorflow.keras.applications.mobilenet_v2.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/losses.py
+tensorflow.keras.losses.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/vgg16.py
+tensorflow.keras.applications.vgg16.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.logspace
+result_type linspace pow cast cast np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.atanh
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_atanh atanh_eager_fallback dispatch dict _dispatcher_for_atanh _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/inception_v3.py
+tensorflow.keras.applications.inception_v3.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.minimum
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_minimum minimum_eager_fallback dispatch dict _dispatcher_for_minimum _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.tile
+array reshape array rank size pad maximum pad shape maximum reshape tile np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/data_service_ops.py
+tensorflow.data.experimental.service.distribute
+_validate_job_name _distribute tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_util.py
+tensorflow.make_tensor_proto
+ValueError isinstance as_dtype _is_array_like asarray isinstance astype ValueError prod empty _AssertCompatible array list _GetDenseDimensions ValueError _GetDenseDimensions list astype astype array_equal as_dtype TypeError hasattr TypeError int prod tuple TypeError tuple tuple TypeError tuple ValueError TensorProto as_proto as_shape ValueError tobytes isinstance _FlattenToStrings as_bytes TypeError extend ravel GetNumpyAppendFn TypeError append_fn tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.logical_not
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_logical_not logical_not_eager_fallback dispatch dict _dispatcher_for_logical_not _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_nn_ops.py
+tensorflow.nn.relu
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_relu relu_eager_fallback dispatch dict _dispatcher_for_relu _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.prod
+_reduce np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet.py
+tensorflow.keras.applications.resnet.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/nasnet.py
+tensorflow.keras.applications.NASNetLarge
+NASNet keras_export image_data_format name_scope Activation ZeroPadding2D correct_pad SeparableConv2D BatchNormalization Activation SeparableConv2D BatchNormalization image_data_format image_data_format int_shape int_shape name_scope name_scope Activation AveragePooling2D Conv2D ZeroPadding2D Cropping2D AveragePooling2D Conv2D concatenate BatchNormalization name_scope Activation Conv2D BatchNormalization image_data_format name_scope _adjust_block Activation Conv2D BatchNormalization name_scope _separable_conv_block _separable_conv_block add name_scope _separable_conv_block _separable_conv_block add name_scope AveragePooling2D add name_scope AveragePooling2D AveragePooling2D add name_scope _separable_conv_block add concatenate image_data_format name_scope _adjust_block Activation Conv2D BatchNormalization ZeroPadding2D correct_pad name_scope _separable_conv_block _separable_conv_block add name_scope MaxPooling2D _separable_conv_block add name_scope AveragePooling2D _separable_conv_block add name_scope AveragePooling2D add name_scope _separable_conv_block MaxPooling2D add concatenate preprocess_input keras_export decode_predictions keras_export format
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/training/input.py
+tensorflow.io.match_filenames_once
+name_scope variable matching_files tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_io_ops.py
+tensorflow.io.matching_files
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_matching_files matching_files_eager_fallback dispatch dict _dispatcher_for_matching_files _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.less_equal
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_less_equal less_equal_eager_fallback dispatch dict _dispatcher_for_less_equal _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/load_library.py
+tensorflow.load_library
+exists isdir listdir join _is_shared_object TF_LoadLibrary OSError tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.nextafter
+_bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/merging/multiply.py
+tensorflow.keras.layers.multiply
+Multiply keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/saved_model/save.py
+tensorflow.saved_model.save
+isinstance fspath IncrementWriteApi save_and_return_nodes IncrementWrite tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.flipud
+flip np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend.py
+tensorflow.keras.backend.is_keras_tensor
+isinstance ValueError str type executing_eagerly_outside_functions isinstance hasattr keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.var
+result_type ValueError reduce_mean cast real conj square reduce_sum size rank reduce_prod gather shape cast cast divide _reduce cast np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/platform/sysconfig.py
+tensorflow.sysconfig.get_link_flags
+system split append get_lib append append tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.expm1
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.random_channel_shift
+uniform apply_channel_shift keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.logaddexp2
+maximum where isnan log1p exp2 abs log np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB2
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.crossed_column
+ValueError format len ValueError format isinstance isinstance ValueError format isinstance ValueError format CrossedColumn tuple tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.polyval
+reshape unstack polyval len broadcast_to _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/generic_utils.py
+tensorflow.keras.utils.serialize_keras_object
+unwrap getattr hasattr is_default is_default warn hasattr get_registered_name get_config serialize_keras_class_and_config items isinstance serialize_keras_object isinstance isinstance get_registered_name serialize_keras_class_and_config hasattr get_registered_name ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.repeat
+asarray _shape_as_list ravel array item prod sum sum asarray repeat set_shape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.quantization.fake_quant_with_min_max_vars_per_channel
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_fake_quant_with_min_max_vars_per_channel fake_quant_with_min_max_vars_per_channel_eager_fallback dispatch dict _dispatcher_for_fake_quant_with_min_max_vars_per_channel make_int make_bool _apply_op_helper dispatch dict must_record_gradient _get_attr_int _get_attr_bool record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.broadcast_to
+full np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.triu
+asarray ValueError as_list len ValueError ValueError constant tri where_v2 broadcast_to shape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.reverse
+context TFE_Py_FastPathExecute raise_from_not_ok_status reverse_eager_fallback _apply_op_helper must_record_gradient _get_attr_type record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.take_along_axis
+asarray asarray take_along_axis ravel rank shape shape tensor_scatter_update tensor_scatter_update broadcast_dynamic_shape tensor_scatter_update tensor_scatter_update broadcast_to broadcast_to where_v2 swapaxes equal subtract cond swapaxes_ cond swapaxes_ shape reshape shape reshape gather reshape cond swapaxes_ set_shape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet.py
+tensorflow.keras.applications.mobilenet.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.maximum
+isinstance isinstance isinstance relu asarray logical_or maximum _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.less
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_less less_eager_fallback dispatch dict _dispatcher_for_less _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.arcsin
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py
+tensorflow.io.gfile.rename
+rename_v2 tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/lite/python/interpreter.py
+tensorflow.lite.experimental.load_delegate
+Delegate ValueError format str _tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/custom_gradient.py
+tensorflow.grad_pass_through
+get len f make_decorator tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_spectral_ops.py
+tensorflow.signal.ifft
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_ifft ifft_eager_fallback dispatch dict _dispatcher_for_ifft _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.log1p
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/mixed_precision/policy.py
+tensorflow.keras.mixed_precision.set_global_policy
+v2_dtype_behavior_enabled ValueError isinstance Policy _check_if_mixed_precision_graph_rewrite_is_enabled as_dtype ValueError set_using_mixed_precision_policy keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.scatter_nd
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_scatter_nd scatter_nd_eager_fallback dispatch dict _dispatcher_for_scatter_nd _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.ceil
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_control_flow_ops.py
+tensorflow.no_op
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_no_op no_op_eager_fallback dispatch dict _dispatcher_for_no_op _apply_op_helper dispatch dict tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/image_utils.py
+tensorflow.keras.preprocessing.image.smart_resize
+len ValueError convert_to_tensor ValueError shape cast cast cast cast minimum minimum cast cast cast cast stack stack stack stack slice resize set_shape set_shape isinstance numpy keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/nest.py
+tensorflow.nest.flatten
+bool Flatten tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/engine/data_adapter.py
+tensorflow.keras.utils.unpack_x_y_sample_weight
+isinstance tuple isinstance len len len format ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/fashion_mnist.py
+tensorflow.keras.datasets.fashion_mnist.load_data
+join append get_file open frombuffer read open reshape frombuffer read len open frombuffer read open reshape frombuffer read len keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.split
+asarray isinstance _boundaries_to_sizes split np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.transpose
+asarray asarray transpose np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/saved_model/load.py
+tensorflow.saved_model.load
+isinstance fspath load_partial tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/optimizers/__init__.py
+tensorflow.keras.optimizers.deserialize
+pop len get enabled executing_eagerly lower lower deserialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_random.py
+tensorflow.experimental.numpy.random.seed
+int ValueError set_seed np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.igammac
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_igammac igammac_eager_fallback dispatch dict _dispatcher_for_igammac _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.cumsum
+asarray _maybe_promote_to_int ravel rank cumsum np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.bitwise_not
+logical_not invert _scalar np_doc AliasOf
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/compat.py
+tensorflow.compat.path_to_str
+hasattr as_str_any __fspath__ tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet_v2.py
+tensorflow.keras.applications.ResNet101V2
+stack2 stack2 stack2 stack2 ResNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/early_stopping.py
+tensorflow.estimator.experimental.stop_if_no_decrease_hook
+_stop_if_no_metric_improvement_hook estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/load_library.py
+tensorflow.load_op_library
+TF_LoadLibrary GetPythonWrappers TF_GetOpList TF_DeleteLibraryHandle hexdigest sha1 ModuleSpec module_from_spec exec setattr tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend_config.py
+tensorflow.keras.backend.set_image_data_format
+ValueError str keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_io_ops.py
+tensorflow.io.write_file
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_write_file write_file_eager_fallback dispatch dict _dispatcher_for_write_file _apply_op_helper dispatch dict tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_string_ops.py
+tensorflow.strings.unicode_script
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_unicode_script unicode_script_eager_fallback dispatch dict _dispatcher_for_unicode_script _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.full
+isinstance asarray convert_to_tensor atleast_1d asarray broadcast_to np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.array
+result_type _array_internal np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isfinite
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/parallel_for/control_flow_ops.py
+tensorflow.vectorized_map
+convert_variables_to_tensors map_structure map_structure _gather_from_tensor_or_composite fn flatten map_structure partial as_list _get_shape any reduce_max shape max pfor tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.sign
+ValueError ValueError ValueError format keys asarray issubdtype cast sign real sign np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.expm1
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_expm1 expm1_eager_fallback dispatch dict _dispatcher_for_expm1 _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/text.py
+tensorflow.keras.preprocessing.text.tokenizer_from_json
+loads get loads pop loads pop loads pop int items loads pop int items loads pop Tokenizer keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/nest.py
+tensorflow.nest.pack_sequence_as
+_pack_sequence_as tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.diag
+asarray rank with_rank_at_most Assert logical_or equal equal cond equal size zeros abs abs matrix_diag shape cond logical_or less_equal getitem greater_equal getitem zeros matrix_diag_part cond equal _diag _diag_part np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/merging/dot.py
+tensorflow.keras.layers.dot
+Dot keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.atleast_1d
+_atleast_nd np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/nest.py
+tensorflow.nest.assert_same_structure
+bool bool AssertSameStructure str map_structure str map_structure type str tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.floor
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/nest.py
+tensorflow.nest.is_nested
+_is_nested tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/control_flow_ops.py
+tensorflow.group
+executing_eagerly pop ValueError join keys name_scope no_op flatten hasattr TypeError type append len items _GroupControlDeps sorted append _GroupControlDeps control_dependencies no_op tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.exp2
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_audio_ops.py
+tensorflow.audio.encode_wav
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_encode_wav encode_wav_eager_fallback dispatch dict _dispatcher_for_encode_wav _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.segment_min
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_segment_min segment_min_eager_fallback dispatch dict _dispatcher_for_segment_min _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/platform/tf_logging.py
+tensorflow.get_logger
+acquire getLogger getLogger setLevel StreamHandler setFormatter Formatter addHandler release tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/bincount_ops.py
+tensorflow.math.bincount
+name_scope convert_to_tensor reduce_prod shape cast reduce_max convert_to_tensor maximum convert_to_tensor minimum convert_to_tensor unsorted_segment_sum constant reshape bincount isinstance convert_to_tensor_or_ragged_tensor isinstance convert_to_tensor_or_ragged_tensor ValueError cast ValueError isinstance reduce_prod shape reduce_prod shape isinstance cast reduce_max cast reduce_max convert_to_tensor maximum convert_to_tensor minimum isinstance validate_sparse_weights isinstance validate_ragged_weights reshape reshape isinstance validate_sparse_weights sparse_bincount isinstance validate_ragged_weights ragged_bincount validate_dense_weights dense_bincount tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.lgamma
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_lgamma lgamma_eager_fallback dispatch dict _dispatcher_for_lgamma _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.math.invert_permutation
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_invert_permutation invert_permutation_eager_fallback dispatch dict _dispatcher_for_invert_permutation _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.arccosh
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/estimator/__init__.py
+tensorflow.keras.estimator.model_to_estimator
+NotImplementedError set get_cell model_to_estimator keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.power
+_bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.quantization.fake_quant_with_min_max_vars_gradient
+context TFE_Py_FastPathExecute _make raise_from_not_ok_status _dispatcher_for_fake_quant_with_min_max_vars_gradient fake_quant_with_min_max_vars_gradient_eager_fallback dispatch dict _dispatcher_for_fake_quant_with_min_max_vars_gradient make_int make_bool _apply_op_helper dispatch dict must_record_gradient _get_attr_int _get_attr_bool record_gradient _make tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isneginf
+full_like np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.sum
+_reduce np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/dlpack/dlpack.py
+tensorflow.experimental.dlpack.from_dlpack
+ensure_initialized context TFE_FromDlpackCapsule context tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/parsing_ops.py
+tensorflow.data.experimental.parse_example_dataset
+ValueError _ParseExampleDataset any isinstance isinstance values map _construct_tensors_for_composite_features tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.segment_sum
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_segment_sum segment_sum_eager_fallback dispatch dict _dispatcher_for_segment_sum _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/training.py
+tensorflow.estimator.train_and_evaluate
+_assert_eval_spec set get_cell _TrainingExecutor should_run_distribute_coordinator info train_and_evaluate ValueError format run estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.any
+asarray reduce_any np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.nonzero
+atleast_1d ValueError unstack where_v2 cast np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_random.py
+tensorflow.experimental.numpy.random.rand
+uniform np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.apply_brightness_shift
+ImportError min max array_to_img Brightness enhance img_to_array keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet_v2.py
+tensorflow.keras.applications.ResNet152V2
+stack2 stack2 stack2 stack2 ResNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet.py
+tensorflow.keras.applications.ResNet152
+stack1 stack1 stack1 stack1 ResNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.hstack
+atleast_1d _promote_dtype isinstance rank cond equal concat concat np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.not_equal
+_comparison np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.tensordot
+_bin_op tensordot np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/model_fn.py
+tensorflow.estimator.experimental.call_logit_fn
+fn_args logit_fn isinstance all isinstance isinstance iteritems isinstance ValueError estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/inception_resnet_v2.py
+tensorflow.keras.applications.InceptionResNetV2
+pop VersionAwareLayers ValueError exists ValueError ValueError obtain_input_shape image_data_format Input is_keras_tensor Input conv2d_bn conv2d_bn conv2d_bn MaxPooling2D conv2d_bn conv2d_bn MaxPooling2D conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn AveragePooling2D conv2d_bn image_data_format Concatenate range inception_resnet_block conv2d_bn conv2d_bn conv2d_bn conv2d_bn MaxPooling2D Concatenate range inception_resnet_block conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn MaxPooling2D Concatenate range inception_resnet_block inception_resnet_block conv2d_bn GlobalAveragePooling2D validate_activation Dense GlobalAveragePooling2D GlobalMaxPooling2D get_source_inputs Model get_file get_file load_weights load_weights keras_export Conv2D image_data_format BatchNormalization Activation conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn ValueError str str image_data_format Concatenate conv2d_bn int_shape Lambda int_shape Activation preprocess_input keras_export decode_predictions keras_export format
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.mod
+cast cast mod _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_utils.py
+tensorflow.experimental.numpy.finfo
+finfo _to_numpy_type np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.less_equal
+_comparison np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend_config.py
+tensorflow.keras.backend.set_floatx
+ValueError str keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_string_ops.py
+tensorflow.strings.as_string
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_as_string as_string_eager_fallback dispatch dict _dispatcher_for_as_string make_int make_bool make_bool make_int make_str _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_int _get_attr_bool _get_attr_bool _get_attr_int get_attr record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/control_flow_ops.py
+tensorflow.switch_case
+_indexed_case_helper tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.io.decode_bmp
+context TFE_Py_FastPathExecute raise_from_not_ok_status decode_bmp_eager_fallback make_int _apply_op_helper must_record_gradient _get_attr_int record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/nest.py
+tensorflow.nest.map_structure
+callable TypeError ValueError pop pop ValueError join keys assert_same_structure flatten zip pack_sequence_as func tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet_v2.py
+tensorflow.keras.applications.MobileNetV2
+pop VersionAwareLayers ValueError exists ValueError ValueError is_keras_tensor is_keras_tensor get_source_inputs ValueError type image_data_format int_shape ValueError int_shape ValueError ValueError is_keras_tensor ValueError type is_keras_tensor is_keras_tensor image_data_format int_shape int_shape int_shape int_shape image_data_format obtain_input_shape image_data_format image_data_format ValueError warning Input is_keras_tensor Input image_data_format _make_divisible Conv2D BatchNormalization ReLU _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _inverted_res_block _make_divisible Conv2D BatchNormalization ReLU GlobalAveragePooling2D validate_activation Dense GlobalAveragePooling2D GlobalMaxPooling2D get_source_inputs Model str float str get_file str float str get_file load_weights load_weights keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.categorical_column_with_vocabulary_list
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.io.decode_jpeg
+context TFE_Py_FastPathExecute raise_from_not_ok_status decode_jpeg_eager_fallback make_int make_int make_bool make_bool make_float make_str _apply_op_helper must_record_gradient _get_attr_int _get_attr_int _get_attr_bool _get_attr_bool get_attr get_attr record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.numeric_column
+_check_shape ValueError format check_default_value callable TypeError format assert_key_is_string NumericColumn tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/optimizers/schedules/learning_rate_schedule.py
+tensorflow.keras.optimizers.schedules.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_spectral_ops.py
+tensorflow.signal.fft3d
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_fft3d fft3d_eager_fallback dispatch dict _dispatcher_for_fft3d _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.array_equal
+cond equal rank rank cond reduce_all equal shape shape reduce_all equal constant constant _comparison np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/image_utils.py
+tensorflow.keras.preprocessing.image.img_to_array
+image_data_format floatx ValueError asarray len transpose len reshape reshape ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_nn_ops.py
+tensorflow.nn.elu
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_elu elu_eager_fallback dispatch dict _dispatcher_for_elu _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.dstack
+atleast_3d _promote_dtype isinstance concat np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/grouping.py
+tensorflow.data.experimental.group_by_reducer
+_GroupByReducerDataset tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.select
+len len ValueError format len len ValueError _promote_dtype zip where np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.equal
+_comparison np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_utils.py
+tensorflow.experimental.numpy.result_type
+_maybe_get_dtype flatten asarray _result_type np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.dot
+cond logical_or equal rank equal rank cond equal rank tensordot tensordot _bin_op np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isrealobj
+iscomplexobj np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_bitwise_ops.py
+tensorflow.bitwise.bitwise_xor
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_bitwise_xor bitwise_xor_eager_fallback dispatch dict _dispatcher_for_bitwise_xor _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/metrics/__init__.py
+tensorflow.keras.metrics.get
+isinstance deserialize isinstance deserialize str callable ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.unsorted_segment_max
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_unsorted_segment_max unsorted_segment_max_eager_fallback dispatch dict _dispatcher_for_unsorted_segment_max _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.logical_and
+_logical_binary_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.xlogy
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_xlogy xlogy_eager_fallback dispatch dict _dispatcher_for_xlogy _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.pad
+get ValueError upper asarray asarray pad np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet_v3.py
+tensorflow.keras.applications.MobileNetV3Small
+_depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth MobileNetV3 keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.space_to_batch_nd
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_space_to_batch_nd space_to_batch_nd_eager_fallback dispatch dict _dispatcher_for_space_to_batch_nd _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/regularizers.py
+tensorflow.keras.regularizers.l1_l2
+L1L2 keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/sequence_feature_column.py
+tensorflow.feature_column.sequence_categorical_column_with_identity
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB3
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.eye
+result_type int int int zeros eye min ones matrix_diag np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.ptp
+amax amin np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB6
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.abs
+_scalar np_doc AliasOf
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.diff
+ValueError ValueError ValueError slice slice slice slice tuple tuple range op _scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/densenet.py
+tensorflow.keras.applications.densenet.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.diag_indices
+ValueError format ValueError format range np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_string_ops.py
+tensorflow.strings.unicode_transcode
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/merging/concatenate.py
+tensorflow.keras.layers.concatenate
+Concatenate keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.bitwise_or
+_bitwise_binary_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.diagonal
+asarray matrix_diag_part moveaxis shape zeros concat cond logical_or less_equal getitem greater_equal getitem matrix_diag_part np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isposinf
+full_like np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_nn_ops.py
+tensorflow.nn.selu
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_selu selu_eager_fallback dispatch dict _dispatcher_for_selu _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/sequence_feature_column.py
+tensorflow.feature_column.sequence_categorical_column_with_vocabulary_list
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB1
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.kron
+_promote_dtype cond reshape _pad_left_to cond reshape _pad_left_to ones_like reshape stack shape shape reshape _make_shape reshape _make_shape reshape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/data_service_ops.py
+tensorflow.data.experimental.service.register_dataset
+_register_dataset tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/inception_v3.py
+tensorflow.keras.applications.InceptionV3
+exists ValueError ValueError obtain_input_shape image_data_format Input is_keras_tensor Input image_data_format conv2d_bn conv2d_bn conv2d_bn MaxPooling2D conv2d_bn conv2d_bn MaxPooling2D conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn AveragePooling2D conv2d_bn concatenate conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn AveragePooling2D conv2d_bn concatenate conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn AveragePooling2D conv2d_bn concatenate conv2d_bn conv2d_bn conv2d_bn conv2d_bn MaxPooling2D concatenate conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn AveragePooling2D conv2d_bn concatenate range conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn AveragePooling2D conv2d_bn concatenate str conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn AveragePooling2D conv2d_bn concatenate conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn conv2d_bn MaxPooling2D concatenate range conv2d_bn conv2d_bn conv2d_bn conv2d_bn concatenate str conv2d_bn conv2d_bn conv2d_bn conv2d_bn concatenate AveragePooling2D conv2d_bn concatenate str GlobalAveragePooling2D validate_activation Dense GlobalAveragePooling2D GlobalMaxPooling2D get_source_inputs Model get_file get_file load_weights load_weights keras_export image_data_format Conv2D BatchNormalization Activation preprocess_input keras_export decode_predictions keras_export format
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.cosh
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_cosh cosh_eager_fallback dispatch dict _dispatcher_for_cosh _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/boston_housing.py
+tensorflow.keras.datasets.boston_housing.load_data
+get_file load RandomState arange len shuffle array int len array int len array int len array int len keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.ravel
+asarray reshape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.vander
+asarray shape get_static_value ValueError Assert rank get_static_value ValueError Assert equal expand_dims pow cast range np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.arccos
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.all
+asarray reduce_all np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_bitwise_ops.py
+tensorflow.bitwise.bitwise_or
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_bitwise_or bitwise_or_eager_fallback dispatch dict _dispatcher_for_bitwise_or _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.multiply
+logical_and multiply _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.cbrt
+abs where_v2 _scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/canned/parsing_utils.py
+tensorflow.estimator.classifier_parse_example_spec
+make_parse_example_spec FixedLenFeature _add_label_and_weight_to_parsing_spec estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.float_power
+power np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/merging/subtract.py
+tensorflow.keras.layers.subtract
+Subtract keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/imagenet_utils.py
+tensorflow.keras.applications.imagenet_utils.decode_predictions
+len ValueError str get_file open load argsort tuple str sort append keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/merging/minimum.py
+tensorflow.keras.layers.minimum
+Minimum keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/__init__.py
+tensorflow.experimental.numpy.min
+amin np_doc AliasOf
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/inception_v3.py
+tensorflow.keras.applications.inception_v3.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.size
+NotImplementedError isinstance asarray is_fully_defined prod as_list size_v2 np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.nanmean
+array issubdtype issubdtype mean logical_not isnan sum nansum np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/io_ops.py
+tensorflow.io.read_file
+read_file tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.xdivy
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_xdivy xdivy_eager_fallback dispatch dict _dispatcher_for_xdivy _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/custom_gradient.py
+tensorflow.recompute_grad
+get_variable_scope stop_recording f GradientTape map_structure len executing_eagerly reduce_max reshape cast where_v2 float map_structure cast watch watch variable_scope f list gradient list NotImplementedError format len len inner_recompute_grad make_decorator tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/hooks/hooks.py
+tensorflow.estimator.experimental.make_stop_at_checkpoint_step_hook
+StopAtStepHook _StopAtCheckpointStepHook estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/prefetching_ops.py
+tensorflow.data.experimental.copy_to_device
+_CopyToDeviceDataset tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/vgg19.py
+tensorflow.keras.applications.vgg19.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.greater_equal
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_greater_equal greater_equal_eager_fallback dispatch dict _dispatcher_for_greater_equal _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.argsort
+ValueError ValueError array reshape argsort cond equal rank constant _argsort array np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.logical_xor
+_logical_binary_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.sin
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/training/checkpoint_utils.py
+tensorflow.train.load_checkpoint
+_get_checkpoint_filename ValueError NewCheckpointReader tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.ix_
+len enumerate asarray rank get_static_value ValueError format Assert equal append reshape nonzero append reshape ValueError format np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.remainder
+mod np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.rint
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_rint rint_eager_fallback dispatch dict _dispatcher_for_rint _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.rad2deg
+np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend.py
+tensorflow.keras.backend.get_uid
+get_graph defaultdict keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet_v2.py
+tensorflow.keras.applications.resnet_v2.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.weighted_categorical_column
+ValueError format WeightedCategoricalColumn tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.take
+ValueError ValueError format asarray asarray reshape shape clip_by_value floormod ValueError gather np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.allclose
+all isclose np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/saved_model/loader_impl.py
+tensorflow.saved_model.contains_saved_model
+isinstance fspath maybe_saved_model_directory tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_audio_ops.py
+tensorflow.audio.decode_wav
+context TFE_Py_FastPathExecute _make raise_from_not_ok_status _dispatcher_for_decode_wav decode_wav_eager_fallback dispatch dict _dispatcher_for_decode_wav make_int make_int _apply_op_helper dispatch dict must_record_gradient _get_attr_int _get_attr_int record_gradient _make tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.tri
+result_type default_float_type zeros ones cast logical_not matrix_band_part ones matrix_band_part np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/compat.py
+tensorflow.compat.as_bytes
+lookup isinstance bytes isinstance encode isinstance TypeError
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.where
+asarray nonzero _promote_dtype where_v2 ValueError np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.identity
+eye np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB4
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.quantization.fake_quant_with_min_max_args
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_fake_quant_with_min_max_args fake_quant_with_min_max_args_eager_fallback dispatch dict _dispatcher_for_fake_quant_with_min_max_args make_float make_float make_int make_bool _apply_op_helper dispatch dict must_record_gradient get_attr get_attr _get_attr_int _get_attr_bool record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.sort
+ValueError ValueError array sort reshape sort np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.copy
+array np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.sinh
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.asinh
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_asinh asinh_eager_fallback dispatch dict _dispatcher_for_asinh _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_data_flow_ops.py
+tensorflow.dynamic_partition
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/constraints.py
+tensorflow.keras.constraints.get
+isinstance deserialize isinstance str deserialize callable ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.random_zoom
+len ValueError uniform apply_affine_transform keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/early_stopping.py
+tensorflow.estimator.experimental.make_early_stopping_hook
+isinstance TypeError format type ValueError startswith ValueError _MultiWorkerEarlyStoppingHook _StopOnPredicateHook _CheckForStoppingHook estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_spectral_ops.py
+tensorflow.signal.ifft2d
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_ifft2d ifft2d_eager_fallback dispatch dict _dispatcher_for_ifft2d _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.linspace
+result_type array array ValueError convert_to_tensor linspace cast cast linspace linspace floor cast np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.segment_mean
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_segment_mean segment_mean_eager_fallback dispatch dict _dispatcher_for_segment_mean _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.ones
+result_type ones np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/cardinality.py
+tensorflow.data.experimental.cardinality
+dataset_cardinality tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/sequence_feature_column.py
+tensorflow.feature_column.sequence_numeric_column
+_check_shape ValueError format callable TypeError format SequenceNumericColumn tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/saving/model_config.py
+tensorflow.keras.models.model_from_yaml
+RuntimeError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/error_ops.py
+tensorflow.data.experimental.ignore_errors
+_IgnoreErrorsDataset tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.negative
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isnan
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.zeta
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_zeta zeta_eager_fallback dispatch dict _dispatcher_for_zeta _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.logaddexp
+maximum where isnan log1p exp abs np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.isscalar
+ndim np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet.py
+tensorflow.keras.applications.resnet.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.random_shift
+uniform uniform apply_affine_transform keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.exp
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend_config.py
+tensorflow.keras.backend.set_epsilon
+keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/imagenet_utils.py
+tensorflow.keras.applications.imagenet_utils.preprocess_input
+ValueError image_data_format ValueError isinstance _preprocess_numpy_input _preprocess_symbolic_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/training/checkpoint_utils.py
+tensorflow.train.checkpoints_iterator
+wait_for_new_checkpoint info timeout_fn time time sleep tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/array_ops.py
+tensorflow.required_space_to_batch_paddings
+name_scope convert_to_tensor convert_to_tensor assert_is_fully_defined get_shape assert_has_rank get_shape get_shape zeros zeros assert_is_compatible_with get_shape convert_to_tensor assert_is_compatible_with get_shape zeros constant_value constant_value constant_value stack range stack range tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.minimum
+logical_and minimum _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.io.decode_and_crop_jpeg
+context TFE_Py_FastPathExecute raise_from_not_ok_status decode_and_crop_jpeg_eager_fallback make_int make_int make_bool make_bool make_float make_str _apply_op_helper must_record_gradient _get_attr_int _get_attr_int _get_attr_bool _get_attr_bool get_attr get_attr record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_random.py
+tensorflow.experimental.numpy.random.randint
+int isinstance result_type ValueError random_uniform np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/data_utils.py
+tensorflow.keras.preprocessing.sequence.pad_sequences
+hasattr ValueError len append len len asarray ValueError str max issubdtype issubdtype isinstance ValueError type full enumerate len ValueError asarray ValueError len len ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_bitwise_ops.py
+tensorflow.bitwise.left_shift
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_left_shift left_shift_eager_fallback dispatch dict _dispatcher_for_left_shift _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.stack
+isinstance asarray swapaxes _promote_dtype isinstance asarray stack np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.tanh
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_tanh tanh_eager_fallback dispatch dict _dispatcher_for_tanh _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.imag
+asarray imag np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.logical_or
+_logical_binary_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.quantization.fake_quant_with_min_max_vars_per_channel_gradient
+context TFE_Py_FastPathExecute _make raise_from_not_ok_status _dispatcher_for_fake_quant_with_min_max_vars_per_channel_gradient fake_quant_with_min_max_vars_per_channel_gradient_eager_fallback dispatch dict _dispatcher_for_fake_quant_with_min_max_vars_per_channel_gradient make_int make_bool _apply_op_helper dispatch dict must_record_gradient _get_attr_int _get_attr_bool record_gradient _make tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/serialization.py
+tensorflow.keras.layers.deserialize
+populate_deserializable_objects deserialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet.py
+tensorflow.keras.applications.ResNet101
+stack1 stack1 stack1 stack1 ResNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.sin
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_sin sin_eager_fallback dispatch dict _dispatcher_for_sin _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isclose
+issubdtype convert_to_tensor convert_to_tensor abs abs is_nan is_nan _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.squared_difference
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_squared_difference squared_difference_eager_fallback dispatch dict _dispatcher_for_squared_difference _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/saving/model_config.py
+tensorflow.keras.models.model_from_json
+deserialize_from_json keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.vstack
+atleast_2d _promote_dtype isinstance concat np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.divide
+true_divide np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.vdot
+_promote_dtype reshape reshape conj dot np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.heaviside
+where_v2 constant where_v2 constant _bin_op issubdtype astype default_float_type np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.ndim
+asarray np_doc NoLink
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/optimizers/__init__.py
+tensorflow.keras.optimizers.get
+pop isinstance isinstance TFOptimizer track_tf_optimizer isinstance deserialize isinstance str deserialize ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.arctan
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet_v3.py
+tensorflow.keras.applications.MobileNetV3Large
+_depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth _inverted_res_block depth MobileNetV3 keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.tril
+asarray ValueError as_list len ValueError ValueError constant tri where_v2 broadcast_to shape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.image.rgb_to_hsv
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_rgb_to_hsv rgb_to_hsv_eager_fallback dispatch dict _dispatcher_for_rgb_to_hsv _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/densenet.py
+tensorflow.keras.applications.DenseNet169
+DenseNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.sinh
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_sinh sinh_eager_fallback dispatch dict _dispatcher_for_sinh _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_bitwise_ops.py
+tensorflow.bitwise.right_shift
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_right_shift right_shift_eager_fallback dispatch dict _dispatcher_for_right_shift _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.arctanh
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.outer
+reshape reshape _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/densenet.py
+tensorflow.keras.applications.DenseNet201
+DenseNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.gcd
+_bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.ascontiguousarray
+array np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.einsum
+get get _promote_dtype asarray ValueError ValueError einsum np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/merging/maximum.py
+tensorflow.keras.layers.maximum
+Maximum keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/nasnet.py
+tensorflow.keras.applications.nasnet.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.segment_prod
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_segment_prod segment_prod_eager_fallback dispatch dict _dispatcher_for_segment_prod _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/reuters.py
+tensorflow.keras.datasets.reuters.load_data
+warning pop TypeError str get_file load RandomState arange len shuffle _remove_long_seq max max int len array array array array keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_linalg_ops.py
+tensorflow.linalg.lu
+context TFE_Py_FastPathExecute _make raise_from_not_ok_status _dispatcher_for_lu lu_eager_fallback dispatch dict _dispatcher_for_lu make_type _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient _make tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/custom_gradient.py
+tensorflow.custom_gradient
+custom_gradient executing_eagerly _eager_mode_decorator _graph_mode_decorator make_decorator decorated tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.geomspace
+as_dtype result_type float zeros promote_types asarray asarray sign real sign real logspace log10 log10 moveaxis cast np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.categorical_column_with_identity
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.igamma
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_igamma igamma_eager_fallback dispatch dict _dispatcher_for_igamma _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.square
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_square square_eager_fallback dispatch dict _dispatcher_for_square _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/image_utils.py
+tensorflow.keras.preprocessing.image.load_img
+warn ImportError isinstance open isinstance isinstance str resolve open open BytesIO read TypeError format type convert convert convert ValueError ValueError format join keys min min resize resize keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/cifar10.py
+tensorflow.keras.datasets.cifar10.load_data
+get_file empty empty range join str load_batch join load_batch reshape len reshape len image_data_format transpose transpose astype astype keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.reciprocal
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/losses.py
+tensorflow.keras.losses.get
+isinstance str deserialize isinstance deserialize callable ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.squeeze
+asarray squeeze np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_bitwise_ops.py
+tensorflow.bitwise.invert
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_invert invert_eager_fallback dispatch dict _dispatcher_for_invert _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_string_ops.py
+tensorflow.io.decode_base64
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_decode_base64 decode_base64_eager_fallback dispatch dict _dispatcher_for_decode_base64 _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.tan
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_tan tan_eager_fallback dispatch dict _dispatcher_for_tan _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/platform/sysconfig.py
+tensorflow.sysconfig.get_lib
+join dirname tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.apply_channel_shift
+rollaxis min max clip stack rollaxis keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.trace
+result_type asarray len trace diagonal sum np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.tile
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_tile tile_eager_fallback dispatch dict _dispatcher_for_tile _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.cos
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/parsing_ops.py
+tensorflow.io.decode_json_example
+decode_json_example tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_spectral_ops.py
+tensorflow.signal.ifft3d
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_ifft3d ifft3d_eager_fallback dispatch dict _dispatcher_for_ifft3d _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/regularizers.py
+tensorflow.keras.regularizers.get
+isinstance deserialize isinstance deserialize str callable ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.unsorted_segment_min
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_unsorted_segment_min unsorted_segment_min_eager_fallback dispatch dict _dispatcher_for_unsorted_segment_min _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.atan
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_atan atan_eager_fallback dispatch dict _dispatcher_for_atan _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/nasnet.py
+tensorflow.keras.applications.NASNetMobile
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.isreal
+imag np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.arctan2
+_bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.arange
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.hypot
+sqrt square square np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/sequence_feature_column.py
+tensorflow.feature_column.sequence_categorical_column_with_hash_bucket
+SequenceCategoricalColumn categorical_column_with_hash_bucket tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.mean
+ValueError _reduce np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.rot90
+rank _canonicalize_axes flip flip range tensor_scatter_update transpose flip flip transpose np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/candidate_sampling_ops.py
+tensorflow.random.all_candidate_sampler
+get_seed all_candidate_sampler tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend_config.py
+tensorflow.keras.backend.floatx
+keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_logging_ops.py
+tensorflow.timestamp
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_timestamp timestamp_eager_fallback dispatch dict _dispatcher_for_timestamp _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.compress
+asarray asarray ValueError ravel ravel fill concat boolean_mask np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_parsing_ops.py
+tensorflow.io.parse_tensor
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_parse_tensor parse_tensor_eager_fallback dispatch dict _dispatcher_for_parse_tensor make_type _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.EfficientNetB7
+EfficientNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.diagflat
+asarray diag reshape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py
+tensorflow.io.gfile.walk
+walk_v2 tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/optimizers/schedules/learning_rate_schedule.py
+tensorflow.keras.optimizers.schedules.deserialize
+deserialize_keras_object globals keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/sequence.py
+tensorflow.keras.preprocessing.sequence.skipgrams
+enumerate random max min len range append append append int len shuffle len randint range randint seed shuffle seed shuffle keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.erf
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_erf erf_eager_fallback dispatch dict _dispatcher_for_erf _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/compat.py
+tensorflow.compat.as_text
+lookup isinstance isinstance decode TypeError
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.log1p
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_log1p log1p_eager_fallback dispatch dict _dispatcher_for_log1p _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/efficientnet.py
+tensorflow.keras.applications.efficientnet.preprocess_input
+keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/image_utils.py
+tensorflow.keras.preprocessing.image.save_img
+image_data_format array_to_img warn convert save keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py
+tensorflow.io.gfile.stat
+stat_v2 tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.meshgrid
+get ValueError get ValueError get asarray meshgrid np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_data_flow_ops.py
+tensorflow.dynamic_stitch
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_dynamic_stitch dynamic_stitch_eager_fallback dispatch dict _dispatcher_for_dynamic_stitch isinstance TypeError len isinstance TypeError len ValueError len _apply_op_helper dispatch dict must_record_gradient _get_attr_int _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.io.encode_jpeg
+context TFE_Py_FastPathExecute raise_from_not_ok_status encode_jpeg_eager_fallback make_str make_int make_bool make_bool make_bool make_str make_int make_int make_str _apply_op_helper must_record_gradient get_attr _get_attr_int _get_attr_bool _get_attr_bool _get_attr_bool get_attr _get_attr_int _get_attr_int get_attr record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/imdb.py
+tensorflow.keras.datasets.imdb.get_word_index
+get_file open load keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.image.hsv_to_rgb
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_hsv_to_rgb hsv_to_rgb_eager_fallback dispatch dict _dispatcher_for_hsv_to_rgb _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/regularizers.py
+tensorflow.keras.regularizers.deserialize
+L1L2 deserialize_keras_object globals keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/__init__.py
+tensorflow.experimental.numpy.max
+amax np_doc AliasOf
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_nn_ops.py
+tensorflow.nn.softsign
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_softsign softsign_eager_fallback dispatch dict _dispatcher_for_softsign _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/ops/dataset_ops.py
+tensorflow.data.experimental.from_variant
+_VariantDataset tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.quantization.fake_quant_with_min_max_vars
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_fake_quant_with_min_max_vars fake_quant_with_min_max_vars_eager_fallback dispatch dict _dispatcher_for_fake_quant_with_min_max_vars make_int make_bool _apply_op_helper dispatch dict must_record_gradient _get_attr_int _get_attr_bool record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.empty
+zeros np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet_v3.py
+tensorflow.keras.applications.mobilenet_v3.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/checkpoint/checkpoint_management.py
+tensorflow.train.latest_checkpoint
+get_checkpoint_state _prefix_to_checkpoint_path _prefix_to_checkpoint_path get_matching_files get_matching_files error tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.unsorted_segment_prod
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_unsorted_segment_prod unsorted_segment_prod_eager_fallback dispatch dict _dispatcher_for_unsorted_segment_prod _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/data_service_ops.py
+tensorflow.data.experimental.service.from_dataset_id
+_validate_job_name string_join _to_string _from_dataset_id tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.quantization.fake_quant_with_min_max_args_gradient
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_fake_quant_with_min_max_args_gradient fake_quant_with_min_max_args_gradient_eager_fallback dispatch dict _dispatcher_for_fake_quant_with_min_max_args_gradient make_float make_float make_int make_bool _apply_op_helper dispatch dict must_record_gradient get_attr get_attr _get_attr_int _get_attr_bool record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.around
+asarray pow issubdtype cast default_float_type astype cast multiply round divide astype np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/engine/data_adapter.py
+tensorflow.keras.utils.pack_x_y_sample_weight
+is_nested keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.atleast_2d
+_atleast_nd np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/layers/serialization.py
+tensorflow.keras.layers.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.append
+concatenate ravel ravel concatenate np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.inner
+cond logical_or equal rank equal rank tensordot _bin_op np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_random.py
+tensorflow.experimental.numpy.random.randn
+standard_normal np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/sparse_ops.py
+tensorflow.sparse.from_dense
+name_scope convert_to_tensor where_v2 not_equal zeros_like gather_nd shape SparseTensor tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/random_seed.py
+tensorflow.random.set_seed
+set_random_seed tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.linalg.cross
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_cross cross_eager_fallback dispatch dict _dispatcher_for_cross _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/losses.py
+tensorflow.keras.losses.deserialize
+deserialize_keras_object globals keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+tensorflow.device
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/compiler/mlir/mlir.py
+tensorflow.mlir.experimental.convert_function
+import_function tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.greater
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_greater greater_eager_fallback dispatch dict _dispatcher_for_greater _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.moveaxis
+asarray isinstance isinstance len len ValueError _maybe_static rank tuple _correct_axis tuple _correct_axis range sorted zip len insert range unstack sort stack len append append concat _remove_indices _remove_indices scatter_nd expand_dims tensor_scatter_update expand_dims transpose np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.maximum
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_maximum maximum_eager_fallback dispatch dict _dispatcher_for_maximum _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend.py
+tensorflow.keras.backend.clear_session
+reset_default_graph reset_uids close get_graph as_default _default_learning_phase _internal_set_learning_phase pop pop executing_eagerly clear_kernel_cache context keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.is_finite
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_is_finite is_finite_eager_fallback dispatch dict _dispatcher_for_is_finite _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.ones_like
+result_type_unary ones_like np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.reciprocal
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_reciprocal reciprocal_eager_fallback dispatch dict _dispatcher_for_reciprocal _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/mixed_precision/policy.py
+tensorflow.keras.mixed_precision.global_policy
+v2_dtype_behavior_enabled Policy floatx Policy keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.amax
+ValueError _reduce np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.average
+isinstance ValueError type array issubdtype astype result_type default_float_type reduce_mean size shape cast issubdtype result_type result_type default_float_type array array Assert reduce_all shape shape shape shape reduce_sum reduce_sum rank_equal_case Assert rank rank reduce_sum convert_to_tensor tensordot cond equal rank rank array broadcast_to shape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/image_utils.py
+tensorflow.keras.preprocessing.image.array_to_img
+image_data_format floatx ImportError asarray ValueError ValueError transpose min max fromarray astype fromarray astype max fromarray astype fromarray astype ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.bitwise_xor
+_bitwise_binary_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/cifar100.py
+tensorflow.keras.datasets.cifar100.load_data
+ValueError get_file join load_batch join load_batch reshape len reshape len image_data_format transpose transpose keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/vgg19.py
+tensorflow.keras.applications.vgg19.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/xception.py
+tensorflow.keras.applications.xception.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/xception.py
+tensorflow.keras.applications.xception.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.positive
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.indicator_column
+isinstance ValueError format IndicatorColumn tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/vgg16.py
+tensorflow.keras.applications.vgg16.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/resnet_v2.py
+tensorflow.keras.applications.ResNet50V2
+stack2 stack2 stack2 stack2 ResNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/load_library.py
+tensorflow.experimental.register_filesystem_plugin
+exists TF_RegisterFilesystemPlugin OSError tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.io.decode_png
+context TFE_Py_FastPathExecute raise_from_not_ok_status decode_png_eager_fallback make_int make_type _apply_op_helper must_record_gradient _get_attr_int _get_attr_type record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.tanh
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/experimental/ops/cardinality.py
+tensorflow.data.experimental.assert_cardinality
+_AssertCardinalityDataset tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.asin
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_asin asin_eager_fallback dispatch dict _dispatcher_for_asin _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.asarray
+result_type isinstance array np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.conj
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.identity_n
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_identity_n identity_n_eager_fallback dispatch dict _dispatcher_for_identity_n _apply_op_helper dispatch dict must_record_gradient get_attr record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_linalg_ops.py
+tensorflow.linalg.cholesky
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_cholesky cholesky_eager_fallback dispatch dict _dispatcher_for_cholesky _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.swapaxes
+asarray isinstance where_v2 add map_structure isinstance isinstance adjust_axes list range rank adjust_axes range tensor_scatter_update transpose np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/stateful_random_ops.py
+tensorflow.random.set_global_generator
+tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.cos
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_cos cos_eager_fallback dispatch dict _dispatcher_for_cos _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.betainc
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_betainc betainc_eager_fallback dispatch dict _dispatcher_for_betainc _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/mnist.py
+tensorflow.keras.datasets.mnist.load_data
+get_file load keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_bitwise_ops.py
+tensorflow.bitwise.bitwise_and
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_bitwise_and bitwise_and_eager_fallback dispatch dict _dispatcher_for_bitwise_and _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.random_shear
+uniform apply_affine_transform keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/generic_utils.py
+tensorflow.keras.utils.get_custom_objects
+keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_spectral_ops.py
+tensorflow.signal.fft
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_fft fft_eager_fallback dispatch dict _dispatcher_for_fft _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_random.py
+tensorflow.experimental.numpy.random.random
+uniform np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/export/export.py
+tensorflow.estimator.export.build_parsing_serving_input_receiver_fn
+placeholder parse_example ServingInputReceiver estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.zeros_like
+result_type_unary as_dtype zeros_like np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/densenet.py
+tensorflow.keras.applications.DenseNet121
+DenseNet keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/generic_utils.py
+tensorflow.keras.utils.get_registered_name
+keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.deg2rad
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/ops.py
+tensorflow.no_gradient
+isinstance TypeError register deprecated_endpoints tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.sqrt
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.cosh
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.logical_not
+array logical_not np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/np_utils.py
+tensorflow.keras.utils.to_categorical
+array len tuple ravel max zeros arange reshape keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/image.py
+tensorflow.keras.preprocessing.image.random_brightness
+len ValueError uniform apply_brightness_shift keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gradients_impl.py
+tensorflow.hessians
+_AsList gradients zip reshape size constant TensorArray while_loop write gradients shape reshape stack concat append tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.bitcast
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_bitcast bitcast_eager_fallback dispatch dict _dispatcher_for_bitcast make_type _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.logical_and
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_logical_and logical_and_eager_fallback dispatch dict _dispatcher_for_logical_and _apply_op_helper dispatch dict must_record_gradient record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.log
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.divmod
+floor_divide mod np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet_v2.py
+tensorflow.keras.applications.mobilenet_v2.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/mobilenet_v3.py
+tensorflow.keras.applications.mobilenet_v3.preprocess_input
+keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.erfc
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_erfc erfc_eager_fallback dispatch dict _dispatcher_for_erfc _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_linalg_ops.py
+tensorflow.linalg.qr
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/ops/dataset_ops.py
+tensorflow.data.experimental.to_variant
+tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.digamma
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_digamma digamma_eager_fallback dispatch dict _dispatcher_for_digamma _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_string_ops.py
+tensorflow.io.encode_base64
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_encode_base64 encode_base64_eager_fallback dispatch dict _dispatcher_for_encode_base64 make_bool _apply_op_helper dispatch dict must_record_gradient _get_attr_bool record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/initializers/__init__.py
+tensorflow.keras.initializers.get
+isinstance deserialize isinstance str deserialize callable isclass identifier ValueError str keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.cross
+add rank add rank transpose concat range range rank cond subtract rank move_axis_to_last maybe_move_axis_to_last maybe_move_axis_to_last getitem shape getitem shape pad concat zeros rank constant cond equal pad_0 maybe_pad_0 maybe_pad_0 cross tf_broadcast add rank rank transpose concat range range cond cond subtract rank move_last_to_axis _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/early_stopping.py
+tensorflow.estimator.experimental.stop_if_lower_hook
+_stop_if_threshold_crossed_hook estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/metrics/__init__.py
+tensorflow.keras.metrics.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.flip
+asarray reverse range rank _canonicalize_axis rank reverse np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.is_nan
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_is_nan is_nan_eager_fallback dispatch dict _dispatcher_for_is_nan _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/platform/sysconfig.py
+tensorflow.sysconfig.get_build_info
+tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.tan
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.bucketized_column
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.log2
+log log np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.is_inf
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_is_inf is_inf_eager_fallback dispatch dict _dispatcher_for_is_inf _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.lcm
+_tf_gcd where_v2 equal constant where_v2 equal constant abs _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/sequence_feature_column.py
+tensorflow.feature_column.sequence_categorical_column_with_vocabulary_file
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.polygamma
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_polygamma polygamma_eager_fallback dispatch dict _dispatcher_for_polygamma _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.iscomplex
+imag np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/inception_resnet_v2.py
+tensorflow.keras.applications.inception_resnet_v2.decode_predictions
+decode_predictions keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/canned/parsing_utils.py
+tensorflow.estimator.regressor_parse_example_spec
+make_parse_example_spec FixedLenFeature _add_label_and_weight_to_parsing_spec estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/metrics/__init__.py
+tensorflow.keras.metrics.deserialize
+deserialize_keras_object globals keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.asanyarray
+asarray np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/initializers/__init__.py
+tensorflow.keras.initializers.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.broadcast_arrays
+pop ValueError ValueError format keys asarray tf_broadcast np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.fabs
+abs np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/compat.py
+tensorflow.compat.as_str
+as_text
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.subtract
+_bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/export/export.py
+tensorflow.estimator.export.build_raw_serving_input_receiver_fn
+_placeholders_from_receiver_tensors_dict ServingInputReceiver estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/eager/context.py
+tensorflow.executing_eagerly
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.angle
+where_v2 angle _scalar rad2deg np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/compat/compat.py
+tensorflow.compat.forward_compatible
+_date_to_date_number tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.expand_dims
+asarray expand_dims np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_shape.py
+tensorflow.compat.dimension_at_index
+isinstance Dimension tf_export isinstance ValueError isinstance int __index__ raise_from TypeError format type ValueError repr str as_dimension as_dimension bool as_dimension is_compatible_with ValueError as_dimension assert_is_compatible_with Dimension Dimension as_dimension Dimension Dimension as_dimension Dimension Dimension as_dimension Dimension Dimension as_dimension Dimension Dimension as_dimension Dimension Dimension as_dimension Dimension Dimension TypeError format type TypeError format type TypeError format type as_dimension Dimension Dimension as_dimension as_dimension as_dimension as_dimension as_dimension tf_export isinstance Dimension isinstance tuple as_dimension isinstance tuple isinstance iter as_dimension append as_dimension raise_from TypeError format tuple enabled list join str join str len as_dimension ValueError len ValueError iter iter isinstance TensorShape isinstance ValueError unknown_shape unknown_shape unknown_shape Dimension is_fully_defined reduce as_list as_shape assert_same_rank merge_with zip TensorShape ValueError concatenate isinstance TensorShape concatenate as_shape unknown_shape TensorShape as_shape ValueError ValueError merge_with unknown_shape ValueError ValueError ValueError isinstance all zip any isinstance unknown_shape any unknown_shape all enumerate TensorShape TensorShape as_proto as_shape zip is_compatible_with is_compatible_with ValueError as_shape unknown_shape zip TensorShape all is_fully_defined ValueError ValueError list TensorShapeProto TensorShapeProto Dim as_shape hash concatenate tf_export register_serializable isinstance TensorShape pop TypeError TensorShape TensorShape Dimension
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/optimizers/__init__.py
+tensorflow.keras.optimizers.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/data_utils.py
+tensorflow.keras.utils.get_file
+ValueError join expanduser expanduser access join join _makedirs_exist_ok path_to_string basename urlsplit ValueError endswith Path with_suffix with_suffix str join join exists validate_file print_msg print_msg Progbar update update urlretrieve DLProgbar Exception format Exception format exists remove exists validate_file ValueError exists _extract_archive _extract_archive keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/constraints.py
+tensorflow.keras.constraints.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.cumprod
+asarray _maybe_promote_to_int ravel rank cumprod np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/linalg/linalg_impl.py
+tensorflow.linalg.banded_triangular_solve
+name_scope banded_triangular_solve tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.log10
+log log np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.signbit
+fill shape _scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.full_like
+ValueError ValueError ValueError asarray result_type asarray broadcast_to shape np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.amin
+ValueError _reduce np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/applications/nasnet.py
+tensorflow.keras.applications.nasnet.preprocess_input
+preprocess_input keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.iscomplexobj
+array issubdtype np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.roll
+asarray roll shape roll reshape reshape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.matmul
+_rank _rank mat_mul cond equal tf_rank tensordot cond equal tf_rank tensordot matmul with_traceback ValueError str exc_info _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.square
+_scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow_estimator/python/estimator/early_stopping.py
+tensorflow.estimator.experimental.stop_if_higher_hook
+_stop_if_threshold_crossed_hook estimator_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/eager/context.py
+tensorflow.experimental.async_clear_error
+clear_executor_errors context tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.reshape
+ValueError format asarray isinstance transpose reshape transpose reshape np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/data/ops/dataset_ops.py
+tensorflow.data.experimental.get_structure
+TypeError type tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/numpy/core/numerictypes.py
+tensorflow.experimental.numpy.issubdtype
+issubclass_ dtype issubclass_ dtype issubclass set_module
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/feature_column/feature_column_v2.py
+tensorflow.feature_column.categorical_column_with_vocabulary_file
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.greater_equal
+_comparison np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/generic_utils.py
+tensorflow.keras.utils.get_registered_object
+keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.sinc
+where_v2 ones_like sin _scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/bincount_ops.py
+tensorflow.sparse.bincount
+name_scope convert_to_tensor reduce_prod shape cast reduce_max convert_to_tensor maximum convert_to_tensor minimum convert_to_tensor unsorted_segment_sum constant reshape bincount isinstance convert_to_tensor_or_ragged_tensor isinstance convert_to_tensor_or_ragged_tensor ValueError cast ValueError isinstance reduce_prod shape reduce_prod shape isinstance cast reduce_max cast reduce_max convert_to_tensor maximum convert_to_tensor minimum isinstance validate_sparse_weights isinstance validate_ragged_weights reshape reshape isinstance validate_sparse_weights sparse_bincount isinstance validate_ragged_weights ragged_bincount validate_dense_weights dense_bincount tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/backend.py
+tensorflow.keras.backend.reset_uids
+clear clear keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/text.py
+tensorflow.keras.preprocessing.text.hashing_trick
+int hexdigest md5 encode text_to_word_sequence analyzer hash_function keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.log
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_log log_eager_fallback dispatch dict _dispatcher_for_log _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/image_ops_impl.py
+tensorflow.io.is_jpeg
+name_scope substr equal tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.unsorted_segment_sum
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_unsorted_segment_sum unsorted_segment_sum_eager_fallback dispatch dict _dispatcher_for_unsorted_segment_sum _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/util/compat.py
+tensorflow.compat.as_str_any
+isinstance as_str str tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/preprocessing/text.py
+tensorflow.keras.preprocessing.text.one_hot
+hashing_trick keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/dlpack/dlpack.py
+tensorflow.experimental.dlpack.to_dlpack
+TFE_ToDlpackCapsule tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/saving/model_config.py
+tensorflow.keras.models.model_from_config
+isinstance TypeError deserialize keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.bitwise_and
+_bitwise_binary_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/vis_utils.py
+tensorflow.keras.utils.model_to_dot
+ValueError check_pydot ImportError Cluster set set Dot set set set set_node_defaults len ValueError len isinstance isinstance ValueError get_layer_index_bound_by_layer_name len ValueError len Node str id add_node isinstance build super enumerate str id isinstance isinstance model_to_dot get_nodes add_subgraph format format isinstance model_to_dot get_nodes add_subgraph hasattr hasattr hasattr str str format_dtype replace replace replace str str format_shape hasattr format_shape hasattr join format_shape isinstance Node add_node enumerate str id enumerate str flatten str id get_node get_node add_edge isinstance is_wrapped_model isinstance is_wrapped_model get_node get_node add_edge isinstance add_edge get_name is_wrapped_model add_edge get_name add_edge isinstance get_name isinstance get_name add_edge add_edge is_wrapped_model add_edge get_name keras_export ValueError check_graphviz print_msg ImportError model_to_dot path_to_string splitext write Image keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.std
+_reduce np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_encode_proto_ops.py
+tensorflow.io.encode_proto
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_encode_proto encode_proto_eager_fallback dispatch dict _dispatcher_for_encode_proto isinstance TypeError make_str make_str make_str _apply_op_helper dispatch dict must_record_gradient get_attr get_attr get_attr get_attr record_gradient tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.zeros
+result_type default_float_type zeros np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/checkpoint/checkpoint_management.py
+tensorflow.train.get_checkpoint_state
+isinstance fspath _GetCheckpointFilename file_exists read_file_to_string CheckpointState Merge ValueError isabs join enumerate isabs join warning type warning warning type warning close tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/stateful_random_ops.py
+tensorflow.random.create_rng_state
+convert_alg_to_int _make_state_from_seed tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/generic_utils.py
+tensorflow.keras.utils.deserialize_keras_object
+isinstance class_and_config_for_serialized_keras_object get get _shared_object_loading_scope hasattr getfullargspec from_config dict list items list items list items CustomObjectScope from_config CustomObjectScope cls set _shared_object_loading_scope isinstance get get ValueError isclass obj isfunction ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.argmin
+_argminmax np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/datasets/imdb.py
+tensorflow.keras.datasets.imdb.load_data
+warning pop TypeError str get_file load RandomState arange len shuffle arange len shuffle _remove_long_seq _remove_long_seq ValueError str concatenate max max len array array keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.concatenate
+isinstance ValueError result_type array concat np_doc_only
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/np_utils.py
+tensorflow.keras.utils.normalize
+atleast_1d norm expand_dims keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py
+tensorflow.math.segment_max
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_segment_max segment_max_eager_fallback dispatch dict _dispatcher_for_segment_max _apply_op_helper dispatch dict must_record_gradient _get_attr_type _get_attr_type record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.count_nonzero
+count_nonzero array np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_image_ops.py
+tensorflow.io.extract_jpeg_shape
+context TFE_Py_FastPathExecute raise_from_not_ok_status extract_jpeg_shape_eager_fallback make_type _apply_op_helper must_record_gradient _get_attr_type record_gradient
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_array_ops.py
+tensorflow.experimental.numpy.shape
+asarray np_doc Link
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/utils/generic_utils.py
+tensorflow.keras.utils.register_keras_serializable
+isclass hasattr ValueError ValueError ValueError keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/models/cloning.py
+tensorflow.keras.models.clone_model
+DisableSharedObjectScope isinstance _clone_sequential_model _clone_functional_model keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/framework/tensor_conversion_registry.py
+tensorflow.register_tensor_conversion_function
+isinstance any isinstance TypeError any issubclass TypeError callable TypeError append clear tf_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.fix
+where_v2 ceil floor _scalar np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.conjugate
+_scalar np_doc AliasOf
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/keras/regularizers.py
+tensorflow.keras.regularizers.serialize
+serialize_keras_object keras_export
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_array_ops.py
+tensorflow.quantization.quantized_concat
+
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_parsing_ops.py
+tensorflow.io.decode_compressed
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_decode_compressed decode_compressed_eager_fallback dispatch dict _dispatcher_for_decode_compressed make_str _apply_op_helper dispatch dict must_record_gradient get_attr record_gradient tf_export deprecated_endpoints
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/numpy_ops/np_math_ops.py
+tensorflow.experimental.numpy.add
+logical_or add _bin_op np_doc
+::::::::::::::::::::::
+/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_nn_ops.py
+tensorflow.nn.l2_loss
+context TFE_Py_FastPathExecute raise_from_not_ok_status _dispatcher_for_l2_loss l2_loss_eager_fallback dispatch dict _dispatcher_for_l2_loss _apply_op_helper dispatch dict must_record_gradient _get_attr_type record_gradient tf_export

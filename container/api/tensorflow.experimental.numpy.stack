@@ -1,0 +1,3 @@
+gen_array_ops.rank
+gen_array_ops.pack
+gen_math_ops._range

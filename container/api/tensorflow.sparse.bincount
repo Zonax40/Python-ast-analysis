@@ -1,0 +1,10 @@
+gen_array_ops.reshape
+gen_math_ops.cast
+gen_array_ops.shape
+gen_math_ops.maximum
+gen_math_ops.minimum
+gen_math_ops.unsorted_segment_sum
+gen_math_ops.bincount
+gen_math_ops.sparse_bincount
+gen_math_ops.ragged_bincount
+gen_math_ops.dense_bincount

@@ -1,0 +1,6 @@
+gen_math_ops.maximum
+gen_array_ops.where
+gen_math_ops.select
+gen_math_ops.exp
+gen_math_ops.complex_abs
+gen_math_ops._abs

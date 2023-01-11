@@ -1,0 +1,3 @@
+gen_array_ops.reshape
+gen_array_ops.fill
+gen_array_ops.matrix_diag_v3

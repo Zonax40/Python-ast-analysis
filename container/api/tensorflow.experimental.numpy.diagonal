@@ -1,0 +1,14 @@
+gen_array_ops.shape
+gen_array_ops.concat_v2
+gen_array_ops.matrix_diag_part_v3
+gen_array_ops.identity
+gen_control_flow_ops.switch
+gen_control_flow_ops.merge
+gen_math_ops.cast
+gen_math_ops.add
+gen_math_ops.add_v2
+gen_math_ops.logical_or
+gen_array_ops.reshape
+gen_array_ops.fill
+gen_array_ops.rank
+gen_math_ops._range

@@ -1,0 +1,6 @@
+gen_array_ops.reshape
+gen_array_ops.shape
+gen_math_ops.cast
+gen_math_ops.add
+gen_math_ops.maximum
+gen_math_ops.minimum

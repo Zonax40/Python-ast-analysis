@@ -1,0 +1,8 @@
+gen_array_ops.fill
+gen_array_ops.concat_v2
+gen_array_ops.reshape
+gen_array_ops.shape
+gen_math_ops.prod
+gen_array_ops.squeeze
+gen_array_ops.where
+gen_math_ops.select_v2

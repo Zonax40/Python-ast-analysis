@@ -1,0 +1,5 @@
+gen_array_ops.reshape
+gen_array_ops.shape
+gen_math_ops.cast
+gen_math_ops.add
+_gen_manip_ops.roll

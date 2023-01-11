@@ -1,0 +1,10 @@
+gen_array_ops.reshape
+gen_array_ops.shape
+gen_array_ops.size
+gen_array_ops.pack
+gen_array_ops.concat_v2
+gen_data_flow_ops.tensor_array_concat_v3
+gen_list_ops.tensor_list_concat_v2
+gen_math_ops.cast
+gen_math_ops.add
+gen_math_ops.add_v2

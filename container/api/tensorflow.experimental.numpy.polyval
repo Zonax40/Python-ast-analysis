@@ -1,0 +1,9 @@
+gen_array_ops.reshape
+gen_array_ops.unpack
+gen_array_ops.rank
+gen_math_ops._range
+gen_array_ops.zeros_like
+gen_math_ops.add
+gen_math_ops.cast
+gen_array_ops.shape
+gen_array_ops.concat_v2

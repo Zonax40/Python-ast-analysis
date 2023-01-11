@@ -1,3 +1,4 @@
+import shutil
 import inspect
 import sys
 import getopt
@@ -142,7 +143,6 @@ import select
 import selectors
 import shelve
 import shlex
-import shutil
 import signal
 import site
 import smtpd
@@ -210,26 +210,11 @@ import_alias = {}
 from_not_module_alias = {}
 # global from's module alias:
 from_module_alias = {}
-# 
-functions = {}
 # module dict:
 modules = {}
-
-# 
-
-log1_path = "/tmp/log1"
-log2_path = "/tmp/log2"
-log3_path = "/tmp/log3"
-log4_path = "/tmp/log4"
-log5_path = "/tmp/log5"
-log6_path = "/tmp/log6"
-log7_path = "/tmp/log7"
-log8_path = "/tmp/log8"
-log9_path = "/tmp/log9"
-
+global_call_type = ''
 # 包括需要递归的函数
 visit_stack = []
-global_call_type = ''
 # judge if the function has been visited, if so return or exxplore x....x
 # attention, the list contains the last method.
 visited_function_list = []
@@ -246,30 +231,30 @@ class Analyzer_former(ast.NodeVisitor):
     def visit_Call(self, node):
         # use to record the type of call type
         global_call_type = type(node)
-        attriute = node.func
-        method = ''
-        while True:
-            # 首先判断是不是Call嵌套, just do cycle. 
-            if type(attriute) == type(node):
-                break
-            try: # 读取Attribute的东西
-                # 在这里首先判断是不是Attribute, 通过能否读取attribute.attr看出来
-                last_method = attriute.attr
-                method = '.' + last_method  + method
-                attriute = attriute.value
-                continue
-            except: # 处理Name的情况，这里一定是会遍历的情况！
-                try:
-                    last_method = attriute.id
-                    method = last_method + method
-                    break
-                except:
-                    # 这里遇到了可能是常量的情况，不关心()
-                    # Error Maker
-                    break
-        if not method.startswith("."):
-            final_method = method.split('.')[-1]
-            visit_stack.append(final_method)
+        # attriute = node.func
+        # method = ''
+        # while True:
+        #     # 首先判断是不是Call嵌套, just do cycle. 
+        #     if type(attriute) == type(node):
+        #         break
+        #     try: # 读取Attribute的东西
+        #         # 在这里首先判断是不是Attribute, 通过能否读取attribute.attr看出来
+        #         last_method = attriute.attr
+        #         method = '.' + last_method  + method
+        #         attriute = attriute.value
+        #         continue
+        #     except: # 处理Name的情况，这里一定是会遍历的情况！
+        #         try:
+        #             last_method = attriute.id
+        #             method = last_method + method
+        #             break
+        #         except:
+        #             # 这里遇到了可能是常量的情况，不关心()
+        #             # Error Maker
+        #             break
+        # if not method.startswith("."):
+        #     final_method = method.split('.')[-1]
+        #     visit_stack.append(final_method)
 
 class Analyzer(ast.NodeVisitor):
     def visit_FunctionDef(self, node):
@@ -373,14 +358,12 @@ class Analyzer(ast.NodeVisitor):
         # print(method)
         try:    
             if method:
-                with open(log4_path, "a+") as f:
-                    f.write(method+"\n")
                 # 获取method的第一个元素
                 # 总是正确工作
                 # 首先检测是否到达底部
                 for element in stop_list:
                     if method.find(element) >= 0 :
-                        print(method)
+                        # print(method)
                         # print("Finishing Call")
                         if method not in raw_api_output:
                             raw_api_output.append(method)
@@ -444,30 +427,25 @@ class Analyzer(ast.NodeVisitor):
                             new_file_path = inspect.getfile(eval(complete_functions))
                             print("update new_file_path:"+complete_functions+":"+new_file_path)
                         else:
-                            print("new file path errors!")
+                            print("new file path errors:"+method+":"+first_method)
+                            new_file_path = ""
                 elif first_method in from_not_module_alias:
                     new_file_path = inspect.getfile(from_not_module_alias[first_method][0])
                     if_alias = from_not_module_alias[first_method][2]
                     module_name = from_not_module_alias[first_method][1]
+                    if new_file_path.endswith("__init__.py"):
+                        print("new path errors 2:" + method + ":" + first_method)
+                        new_file_path = ""
                     # print(from_not_module_alias[first_method][1])
                 elif first_method in from_module_alias:
                     new_file_path = inspect.getfile(from_module_alias[first_method][0])
                     if_alias = from_module_alias[first_method][2]
                     module_name = from_module_alias[first_method][1]
+                    if new_file_path.endswith("__init__.py"):
+                        print("new path errors 2:" + method + ":" + first_method)
+                        new_file_path = ""
                 else:
                     tensorflow_path_checker = 0 
-                # new_file_path = inspect.getfile(eval(method)) 
-                # print("***************************")
-                # print(method)
-                # print(new_file_path)
-                # print("***************************")
-                if not new_file_path:
-                    with open(log2_path, "a+") as f:
-                        f.write(method+"\n")
-                if new_file_path:
-                    with open(log3_path, "a+") as f:
-                        f.write(method+"\n")
-                # print(new_file_path)
                 if new_file_path:
                     if "tensorflow" in new_file_path:
                         if tensorflow_path_checker == 0:
@@ -510,8 +488,6 @@ class Analyzer(ast.NodeVisitor):
                                 # something goes wrong
                                 print("In recursive, something goes wrong.")
                                 print(parse_result[search_result + index: search_result  + index + len("FunctionDef(name='")])
-                                with open(log5_path, "a+") as f:
-                                    f.write("index:{}\n\t".format(index)+ parse_result[search_result : search_result + len("FunctionDef(name='") - 1])
                             # get the name
                             tmp = parse_result[search_result + index+ len("FunctionDef(name='"):].find("'")
                             # print(tmp)
@@ -684,7 +660,7 @@ class Analyzer(ast.NodeVisitor):
         self.generic_visit(node)
     def visit_ImportFrom(self, node):
         # from .... import ... as ...
-        print("Entering import from")
+        # print("Entering import from")
         module = node.module
         # 类似于import方法
         if_asname = 0
@@ -712,7 +688,12 @@ class Analyzer(ast.NodeVisitor):
             if_module = 1
         except:
             # 在这里只表示只引入了函数
-            module_import = importlib.import_module(module)
+            # error occurs
+            try:
+                module_import = importlib.import_module(module)
+            except:
+                self.generic_visit(node)
+                return
 
         # 第二步保存
         # expand the store information with a asname tag.
@@ -735,44 +716,241 @@ class Analyzer(ast.NodeVisitor):
                 from_not_module_alias[name] = [module_import, module, 0]
         # still now contains everty module
         self.generic_visit(node)
-# with open("/home/wind/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_string_ops.py", "r") as f:
-with open(log1_path, "w") as f:
-    pass
-with open(log2_path, "w") as f:
-    pass
-with open(log3_path, "w") as f:
-    pass
-with open(log4_path, "w") as f:
-    pass
-with open(log5_path, "w") as f:
-    pass
-with open(log6_path, "w") as f:
-    pass
-with open(log7_path, "w") as f:
-    pass
-with open(log8_path, "w") as f:
-    pass
-with open(log9_path, "w") as f:
-    pass
-with open("./sample.py", "r") as f:
-    tree = ast.parse(f.read())
+# with open("./sample.py", "r") as f:
+#     tree = ast.parse(f.read())
 
 # print((ast.dump(tree)))
 
-former_analyzer = Analyzer_former()
-former_analyzer.visit(tree)
-# print(visit_stack)
-analyzer = Analyzer()
-analyzer.visit(tree)
-
-
-# print(raw_api_output)
-# print(from_module_alias)
-# print(from_not_module_alias)
-# print(import_alias)
 
 
 
+def strip_function(function_name, file_path, parse_result):
+    # clear the visit_stack
+    visit_stack.clear()
+    index = 0
+    # if_located used to refer if successfully find the specific function
+    while True:
+        if_located = False
+        # here, update the index
+        # here, wrong handle way
+        search_result = parse_result[index:].find("FunctionDef(name='")
+        if search_result == -1:
+            # used to represent finished
+            break
+        # then check the name
+        if parse_result[search_result + index: search_result  + index + len("FunctionDef(name='") ] != "FunctionDef(name='":
+            # something goes wrong
+            print("In recursive, something goes wrong.")
+            print(parse_result[search_result + index: search_result  + index + len("FunctionDef(name='")])
+        # get the name
+        tmp = parse_result[search_result + index+ len("FunctionDef(name='"):].find("'")
+        # print(tmp)
+        # with successful repair
+        name = parse_result[search_result +index +len("FunctionDef(name='") : search_result +index +len("FunctionDef(name='") + tmp ]
+        # successfully validate
+        # compare the name 
+        # print(name+":"+function_name)
+        if name == function_name:
+            # print(name+":"+function_name)
+            # if the name matches, then store this parts, and then store this part into a file stored in /tmp
+            # first locate such pattern: FunctionDef(.......)
+            # use the simplest way to finish traversing
+            # when bracket_count goes to 0, then finish
+            bracket_count = 1
+            # temp_index is used to account the length of traversing length
+            # The actual index is search_result + leng("FunctionDef(" + temp_index)
+            temp_index = 0
+            for letter in parse_result[search_result + index + len("FunctionDef("):]:
+                if letter == "(":
+                    bracket_count = bracket_count + 1
+                elif letter == ")":
+                    bracket_count = bracket_count - 1
+                # check out if it is time to finish
+                if bracket_count == 0:
+                    # if_located works 
+                    if_located = True
+                    break
+                temp_index = temp_index + 1
+            # now get the successful substring, it is time.
+            
+            if if_located:
+                # if_located is true, means find the defination of the function , recording the inner called functions
+                check_string = parse_result[search_result + index+ len("FunctionDef"):search_result+index + len("FunctionDef(")+temp_index+1]
+                # print("+++"+check_string)
+                # now it is time to deal with the call function
+                # here is the furthur trace of the function, obtain the contained function and just add it to visit_stack
+                # similarity, deal with the string result 
+                new_index = 0
+                while True:
+                    temp_search_result = check_string[new_index:].find("Call(func=")
+                    if temp_search_result == -1:
+                        break
+                    # to make the program more stable use some fool methods
+                    bracket_count = 1
+                    # temp_index is used to account the length of traversing length
+                    temp_index = 0
+                    for letter in check_string[temp_search_result + new_index + len("Call(func="):]:
+                        if letter == "(":
+                            bracket_count = bracket_count + 1
+                        elif letter == ")":
+                            bracket_count = bracket_count - 1
+                        # check out if it is time to finish
+                        if bracket_count == 0:
+                            # if_located works 
+                            break
+                        temp_index = temp_index + 1
+                    # call_string validate, it is complete
+                    call_string = check_string[temp_search_result+new_index:temp_search_result+new_index+temp_index+len("Call(func=")+1]
+                    # first, check out the first few characters if they are Call(func=Name, if so just get id
+                    # work properly
+                    if check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Name")] == "Call(func=Name":
+                        # just compare the first few chars if it is Call(func=Name(id=
+                        if check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Name(id='")] == "Call(func=Name(id='":
+                            symbol_index = check_string[temp_search_result+new_index+len("Call(func=Name(id='"):].find("'")
+                            # validate
+                            id_name = check_string[temp_search_result+new_index+len("Call(func=Name(id='"):temp_search_result+new_index+len("Call(func=Name(id='")+symbol_index]
+                            visit_stack.append(id_name)
+                    elif check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Attribute")] == "Call(func=Attribute":
+                        bracket_count = 1
+                        temp_index = 0
+                        for letter in check_string[temp_search_result + new_index + len("Call(func=Attribute("):]:
+                            if letter == "(":
+                                bracket_count = bracket_count + 1
+                            elif letter == ")":
+                                bracket_count = bracket_count - 1
+                            # check out if it is time to finish
+                            if bracket_count == 0:
+                                # if_located works 
+                                break
+                            temp_index = temp_index + 1
+                        func_string = check_string[temp_search_result + new_index+ len("Call("):temp_search_result + new_index + len("Call(func=Attribute(")+temp_index+1]
+                        # call_string is the correct array, just get the last attr
+                        # print(call_string)
+                        symbol_index =  func_string.rfind("attr='")
+                        if symbol_index == -1:
+                            print("Attribute: error:"+func_string)
+                            new_index = new_index + temp_search_result + len("Call(func=")
+                            continue
+                            
+                        temp_index = 0
+                        for letter in func_string[symbol_index + len("attr='"):]:
+                            if letter != "'":
+                                temp_index = temp_index + 1
+                            else:
+                                break
+                        attriute_name = func_string[symbol_index + len("attr='"): symbol_index + len("attr='") + temp_index]
+                        # print(attriute_name)
+                        # print(attriute_name)
+                        visit_stack.append(attriute_name)
+                    else:
+                        # print("Call(func= appears error:"+check_string[temp_search_result+new_index:temp_search_result+new_index+len("Call(func=Attribute")])
+                        # here just Call and call 
+                        pass
+                    # print(call_string)
+                    new_index = new_index + temp_search_result + len("Call(func=")
+
+                pass
+            else:
+                # pass
+                # stop tracing
+                index = search_result + index + len("FunctionDef(name='") - 1
+                continue
+            break
+        else:
+            # change index to fit the next coming cycle
+            index = search_result + index + len("FunctionDef(name='") - 1
+            pass
+
+
+# the basic idea is: use the inspect.getfile() to check out the file as getfile() might return error results ,which need extra handle
+getfile_error=[]
+if __name__ == "__main__":
+    # first, checkout the cointain folder
+    if not os.path.exists("./container"):
+        os.mkdir("./container")
+    else:
+        shutil.rmtree("./container")
+        os.mkdir("./container")
+    # create the folder "ast" which contains the ast.dump() result of the file
+    # create the folder "api" which contains the raw_op of the corrosponding function
+    os.mkdir("./container/ast")
+    os.mkdir("./container/api")
+
+    log = open("./log", "w+")
+    empty_raw_op = 0
+    # try to read the file
+    with open("./tf_APIdef.txt", "r") as f:
+        for line in f.readlines():
+            function_call = "tensorflow" + line[2:-1]
+            # 
+            bracket_index = function_call.find("(")
+            if bracket_index == -1:
+                print("Error in bracket_index")
+                continue
+            function_call = function_call[:bracket_index]
+            function_call_last_name =  function_call.split(".")[-1]
+            # print(function_call)
+            try:
+                file_path = inspect.getfile(eval(function_call))
+            except:
+                # actually, this is a quite small set, therefore, just skip it without great influence
+                getfile_error.append(function_call)
+                continue    
+            # by ast tree, it is easy to judge if file_path file contains the function.
+            with open(file_path, "r") as f:
+                tree = ast.parse(f.read())
+                # string
+                parse_result = ast.dump(tree)
+            if parse_result.find("FunctionDef(name='" + function_call_last_name + "'") >= 0:
+                # 561 / 1442
+                # print(function_call)
+                # global import's alias:
+                # import_alias = {}
+                # # global from's alias:
+                # from_not_module_alias = {}
+                # # global from's module alias:
+                # from_module_alias = {}
+                # # module dict:
+                # modules = {}
+                # global_call_type = ''
+                # # 包括需要递归的函数
+                # visit_stack = []
+                # # judge if the function has been visited, if so return or exxplore x....x
+                # # attention, the list contains the last method.
+                # visited_function_list = []
+                # raw_api_output = []
+                visit_stack.clear()
+                visited_function_list.clear()
+                raw_api_output.clear()
+                from_module_alias.clear()
+                from_not_module_alias.clear()
+                import_alias.clear()
+                strip_function(function_call_last_name, file_path, parse_result)
+                
+                log.write("::::::::::::::::::::::"+"\n")
+                log.write(file_path+"\n")
+                log.write(function_call+"\n")
+                log.write(" ".join(visit_stack) + "\n")
+                # now get the file_path and function_call_last_name and visit_stack
+                former_analyzer = Analyzer_former()
+                former_analyzer.visit(tree)
+                # print(visit_stack)
+                analyzer = Analyzer()
+                analyzer.visit(tree)
+
+                with open("./container/api/"+function_call, "w+") as f:
+                    if len(raw_api_output) == 0:
+                        empty_raw_op = empty_raw_op + 1
+                        continue
+                    for ele in raw_api_output:
+                        f.write(ele+"\n")
+            else:
+                # extra_handle()
+                pass
+    print("***************************************")
+    print("empty:{}".format(empty_raw_op) )
+    # print(getfile_error)
+    log.close()
 
 
 

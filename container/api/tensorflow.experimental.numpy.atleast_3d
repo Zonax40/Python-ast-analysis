@@ -1,0 +1,11 @@
+gen_math_ops.equal
+gen_array_ops.size
+gen_array_ops.pad
+gen_array_ops.identity
+gen_control_flow_ops.switch
+gen_control_flow_ops.merge
+gen_math_ops.add
+gen_math_ops.add_v2
+gen_array_ops.zeros_like
+gen_array_ops.pad_v2
+gen_array_ops.mirror_pad

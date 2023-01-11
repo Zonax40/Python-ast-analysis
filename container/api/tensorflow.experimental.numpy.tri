@@ -1,0 +1,4 @@
+gen_array_ops.reshape
+gen_array_ops.fill
+gen_math_ops.cast
+gen_math_ops.logical_not
